@@ -12,6 +12,8 @@ app.use((err, req, res, next) => {
   next();
 });
 
+app.use(express.urlencoded({extended : true}));
+
 app.post("/apc/v1/card-list", (req, res) => {
   let data = {
     dataProtected: {
@@ -382,7 +384,12 @@ app.post("/apc/v1/card-list", (req, res) => {
 });
 
 app.post("/apc/v1/upsert-document", (req, res) => {
-  res.json({ data: "check" });
+
+  console.log(req.body);
+  
+  res.json({ dataProtected: {
+    id : "hahahahah"
+  }});
 });
 
 app.get("/apc/v1/personal-data", (req, res) => {
