@@ -513,6 +513,246 @@ app.get("/reference/v1/lov", (req, res) => {
         }
     });
   }
+  if (req.query.category == "apply-cc.job-data") {
+    res.send({
+      "data": {
+        "companyCategory": [
+          {
+            "lovValue": "BUMN",
+            "lovDisplay": "applyccBUMNdisplay",
+            "lovKey": "bumn1"
+          },
+          {
+            "lovValue": "Instani Pemerintah",
+            "lovDisplay": "applyccInstansiPemerintahDisplay",
+            "lovKey": "ip1"
+          },
+          {
+            "lovValue": "Swasta",
+            "lovDisplay": "applyccSwastaDisplay",
+            "lovKey": "swa1"
+          },
+          {
+            "lovValue": "Swasta Nasional",
+            "lovDisplay": "applyccSwastaNasDisplay",
+            "lovKey": "swan1"
+          },
+          {
+            "lovValue": "Multinasional",
+            "lovDisplay": "applyccMultiDisplay",
+            "lovKey": "mult1"
+          },
+          {
+            "lovValue": "Lainnya",
+            "lovDisplay": "applyccOthersDisplay",
+            "lovKey": "oth1"
+          }
+        ],
+        "businessFields": [
+          {
+            "lovValue": "Pertanian, Perkebunan, Peternakan",
+            "lovDisplay": "applyCCJobDataScreenBusinessFieldsFarming",
+            "lovKey": "applyCCJobDataScreenBusinessFieldsFarming1"
+          },
+          {
+            "lovValue": "Pertambangan",
+            "lovDisplay": "applyCCJobDataScreenBusinessFieldsMining",
+            "lovKey": "applyCCJobDataScreenBusinessFieldsMining1"
+          },
+          {
+            "lovValue": "Industri, Pabrik, Home Industry, Percetakan",
+            "lovDisplay": "applyCCJobDataScreenBusinessFieldsIndustry",
+            "lovKey": "applyCCJobDataScreenBusinessFieldsIndustry1"
+          },
+          {
+            "lovValue": "Minyak, Gas, Air, Listrik",
+            "lovDisplay": "applyCCJobDataScreenBusinessFieldsOil",
+            "lovKey": "applyCCJobDataScreenBusinessFieldsOil1"
+          },
+          {
+            "lovValue": "Properti, Kontraktor",
+            "lovDisplay": "applyCCJobDataScreenBusinessFieldsProperty",
+            "lovKey": "applyCCJobDataScreenBusinessFieldsProperti1"
+          },
+          {
+            "lovValue": "Perdagangan, Export-Import, Hotel, Restaurant",
+            "lovDisplay": "applyCCJobDataScreenBusinessFieldsTrading",
+            "lovKey": "applyCCJobDataScreenBusinessFieldsTrading1"
+          },
+          {
+            "lovValue": "Angkutan, Informasi, Telekomunikasi",
+            "lovDisplay": "applyCCJobDataScreenBusinessFieldsTransport",
+            "lovKey": "applyCCJobDataScreenBusinessFieldsTransport1"
+          },
+          {
+            "lovValue": "Perbankan, Hiburan, Asuransi, Konsultan, Travel(Profit)",
+            "lovDisplay": "applyCCJobDataScreenBusinessFieldsBanking",
+            "lovKey": "applyCCJobDataScreenBusinessFieldsBanking1"
+          },
+          {
+            "lovValue": "Pemerintahan, Jasa(Non Profit)",
+            "lovDisplay": "applyCCJobDataScreenBusinessFieldsGovernment",
+            "lovKey": "applyCCJobDataScreenBusinessFieldsGovernment2"
+          },
+          {
+            "lovValue": "Lainnya",
+            "lovDisplay": "applyCCJobDataScreenBusinessFieldsOther",
+            "lovKey": "applyCCJobDataScreenBusinessFieldsOther2"
+          }
+        ],
+        "positionB": [
+          {
+            "lovKey": "applyCCJobDataScreenPositionBKomisaris1",
+            "lovDisplay": "applyCCJobDataScreenPositionBKomisaris",
+            "lovValue": "Komisaris/Pemilik/Persero"
+          },
+          {
+            "lovKey": "applyCCJobDataScreenPositionBKomisaris1",
+            "lovDisplay": "applyCCJobDataScreenPositionBKomisaris",
+            "lovValue": "Komisaris/Pemilik/Persero"
+          },
+          {
+            "lovKey": "applyCCJobDataScreenPositionBKomisaris1",
+            "lovDisplay": "applyCCJobDataScreenPositionBKomisaris",
+            "lovValue": "Komisaris/Pemilik/Persero"
+          },
+          {
+            "lovKey": "applyCCJobDataScreenPositionBKomisaris1",
+            "lovDisplay": "applyCCJobDataScreenPositionBKomisaris",
+            "lovValue": "Komisaris/Pemilik/Persero"
+          },
+          {
+            "lovKey": "applyCCJobDataScreenPositionBKomisaris1",
+            "lovDisplay": "applyCCJobDataScreenPositionBKomisaris",
+            "lovValue": "Komisaris/Pemilik/Persero"
+          },
+          {
+            "lovKey": "applyCCJobDataScreenPositionBKomisaris1",
+            "lovDisplay": "applyCCJobDataScreenPositionBKomisaris",
+            "lovValue": "Komisaris/Pemilik/Persero"
+          },
+          {
+            "lovKey": "applyCCJobDataScreenPositionBKomisaris1",
+            "lovDisplay": "applyCCJobDataScreenPositionBKomisaris",
+            "lovValue": "Komisaris/Pemilik/Persero"
+          },
+          {
+            "lovKey": "applyCCJobDataScreenPositionBKomisaris1",
+            "lovDisplay": "applyCCJobDataScreenPositionBKomisaris",
+            "lovValue": "Komisaris/Pemilik/Persero"
+          },
+        ],
+        "positionS": [
+          {
+            "lovKey": "applyCCJobDataScreenPositionSDirektur1",
+            "lovValue": "Direktur",
+            "lovDisplay": "applyCCJobDataScreenPositionSDirektur"
+          },
+          {
+            "lovKey": "applyCCJobDataScreenPositionSDirektur1",
+            "lovValue": "Wakil Direktur",
+            "lovDisplay": "applyCCJobDataScreenPositionSDirektur"
+          },
+          {
+            "lovKey": "applyCCJobDataScreenPositionSDirektur1",
+            "lovValue": "General Manager/Kepala Biro",
+            "lovDisplay": "applyCCJobDataScreenPositionSDirektur"
+          },
+          {
+            "lovKey": "applyCCJobDataScreenPositionSDirektur1",
+            "lovValue": "Manager/Kepala Bagian",
+            "lovDisplay": "applyCCJobDataScreenPositionSDirektur"
+          },
+          {
+            "lovKey": "applyCCJobDataScreenPositionSDirektur1",
+            "lovValue": "Asisten Manager/Kepala Seksi",
+            "lovDisplay": "applyCCJobDataScreenPositionSDirektur"
+          },
+          {
+            "lovKey": "applyCCJobDataScreenPositionSDirektur1",
+            "lovValue": "Staff",
+            "lovDisplay": "applyCCJobDataScreenPositionSDirektur"
+          }
+        ],
+        "positionP": [
+          {
+            "lovKey": "dependents.count.more-than-four",
+            "lovValue": "Direktur/Pejabat Eselon I",
+            "lovDisplay": "applyccDependentsMoreThan4"
+          },
+          {
+            "lovKey": "dependents.count.more-than-four",
+            "lovValue": "General Manager/Kepala Biro/Pejabat Eselon II",
+            "lovDisplay": "applyccDependentsMoreThan4"
+          },
+          {
+            "lovKey": "dependents.count.more-than-four",
+            "lovValue": "Manager/Kepala Bagian/Pejabat Eselon III",
+            "lovDisplay": "applyccDependentsMoreThan4"
+          },
+          {
+            "lovKey": "dependents.count.more-than-four",
+            "lovValue": "Assistant Manager/Kepala Seksi/Pejabat Eselon IV",
+            "lovDisplay": "applyccDependentsMoreThan4"
+          },
+          {
+            "lovKey": "dependents.count.more-than-four",
+            "lovValue": "Staff",
+            "lovDisplay": "applyccDependentsMoreThan4"
+          }
+        ],
+        "positionN": [
+          {
+            "lovKey": "dependents.count.more-than-four",
+            "lovValue": "Kepala Pemerintahan",
+            "lovDisplay": "applyccDependentsMoreThan4"
+          },
+          {
+            "lovKey": "dependents.count.more-than-four",
+            "lovValue": "Aparat Pemerintahan",
+            "lovDisplay": "applyccDependentsMoreThan4"
+          },
+          {
+            "lovKey": "dependents.count.more-than-four",
+            "lovValue": "Anggota Lembaga Tinggi Negara",
+            "lovDisplay": "applyccDependentsMoreThan4"
+          },
+          {
+            "lovKey": "dependents.count.more-than-four",
+            "lovValue": "Menteri",
+            "lovDisplay": "applyccDependentsMoreThan4"
+          }
+        ],
+        "positionM": [
+          {
+            "lovKey": "dependents.count.more-than-four",
+            "lovValue": "Perwira Tinggi",
+            "lovDisplay": "applyccDependentsMoreThan4"
+          },
+          {
+            "lovKey": "dependents.count.more-than-four",
+            "lovValue": "Perwira Menengah",
+            "lovDisplay": "applyccDependentsMoreThan4"
+          },
+          {
+            "lovKey": "dependents.count.more-than-four",
+            "lovValue": "Perwira Pertama",
+            "lovDisplay": "applyccDependentsMoreThan4"
+          },
+          {
+            "lovKey": "dependents.count.more-than-four",
+            "lovValue": "Bintara",
+            "lovDisplay": "applyccDependentsMoreThan4"
+          },
+          {
+            "lovKey": "dependents.count.more-than-four",
+            "lovValue": "Tamtama",
+            "lovDisplay": "applyccDependentsMoreThan4"
+          }
+        ]
+      }
+    });
+  }
 
   if (req.query.category == "apply-cc.residence") {
     res.send({
