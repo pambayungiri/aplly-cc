@@ -516,7 +516,7 @@ app.get("/reference/v1/lov", (req, res) => {
   if (req.query.category == "apply-cc.job-data") {
     res.send({
       "data": {
-        "companyCategory": [
+        "typeCompany": [
           {
             "lovValue": "BUMN",
             "lovDisplay": "applyccBUMNdisplay",
