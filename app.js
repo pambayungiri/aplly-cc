@@ -518,32 +518,32 @@ app.get("/reference/v1/lov", (req, res) => {
       "data": {
         "typeCompany": [
           {
-            "lovValue": "BUMN",
+            "lovValue": "B",
             "lovDisplay": "applyCCJobDataScreenTypeCompanyBumn",
             "lovKey": "bumn1"
           },
           {
-            "lovValue": "Instani Pemerintah",
+            "lovValue": "P",
             "lovDisplay": "applyCCJobDataScreenTypeCompanyGovernmentAgencies",
             "lovKey": "ip1"
           },
           {
-            "lovValue": "Swasta",
+            "lovValue": "S",
             "lovDisplay": "applyCCJobDataScreenTypeCompanyPrivate",
             "lovKey": "swa1"
           },
           {
-            "lovValue": "Swasta Nasional",
+            "lovValue": "N",
             "lovDisplay": "applyCCJobDataScreenTypeCompanyNationalPrivate",
             "lovKey": "swan1"
           },
           {
-            "lovValue": "Multinasional",
+            "lovValue": "M",
             "lovDisplay": "applyCCJobDataScreenTypeCompanyMultinational",
             "lovKey": "mult1"
           },
           {
-            "lovValue": "Lainnya",
+            "lovValue": "L",
             "lovDisplay": "applyCCJobDataScreenTypeCompanyOther",
             "lovKey": "oth1"
           }
