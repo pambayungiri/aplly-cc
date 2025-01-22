@@ -844,59 +844,59 @@ app.get("/reference/v1/lov", (req, res) => {
 
   if (req.query.category == "apply-cc.landing-page") {
     res.send({
-        "data": {
-          "first": [
-            {
-              "lovKey": "inbox-transactional.trx-history.status.success",
-              "lovValue": "SUCCESS",
-              "lovDisplay": "applyCCLandingPageScreenListTitle1"
-            },
-            {
-              "lovKey": "inbox-transactional.trx-history.status.failed",
-              "lovValue": "FAILED",
-              "lovDisplay": "applyCCLandingPageScreenListDescription1"
-            },
-            {
-              "lovKey": "inbox-transactional.trx-history.status.pending",
-              "lovValue": "PENDING",
-              "lovDisplay": "/src/assets/icons/img_investment_20_banner_mutual_fund.svg"
-            }
-          ],
-          "second": [
-            {
-              "lovKey": "inbox-transactional.trx-history.status.success",
-              "lovValue": "SUCCESS",
-              "lovDisplay": "applyCCLandingPageScreenListTitle2"
-            },
-            {
-              "lovKey": "inbox-transactional.trx-history.status.failed",
-              "lovValue": "FAILED",
-              "lovDisplay": "applyCCLandingPageScreenListDescription2"
-            },
-            {
-              "lovKey": "inbox-transactional.trx-history.status.pending",
-              "lovValue": "PENDING",
-              "lovDisplay": "/src/assets/icons/img_investment_21_banner_mutual_fund.svg"
-            }
-          ],
-          "third": [
-            {
-              "lovKey": "inbox-transactional.trx-history.status.success",
-              "lovValue": "SUCCESS",
-              "lovDisplay": "applyCCLandingPageScreenListTitle3"
-            },
-            {
-              "lovKey": "inbox-transactional.trx-history.status.failed",
-              "lovValue": "FAILED",
-              "lovDisplay": "applyCCLandingPageScreenListDescription3"
-            },
-            {
-              "lovKey": "inbox-transactional.trx-history.status.pending",
-              "lovValue": "PENDING",
-              "lovDisplay": "/src/assets/icons/img_investment_22_banner_mutual_fund.svg"
-            }
-          ]
-        }
+      "data": {
+        "1": [
+          {
+            "lovDisplay": "applyCCLandingPageScreenListTitle1",
+            "lovValue": "applyCCLandingPageScreenList1",
+            "lovKey": "apply-cc.landing-page.1.title"
+          },
+          {
+            "lovDisplay": "applyCCLandingPageScreenListDescription1",
+            "lovValue": "applyCCLandingPageScreenList1",
+            "lovKey": "apply-cc.landing-page.1.description"
+          },
+          {
+            "lovDisplay": "applyCCLandingPageScreenListIcon1",
+            "lovValue": "applyCCLandingPageScreenList1",
+            "lovKey": "apply-cc.landing-page.1.icon"
+          }
+        ],
+        "2": [
+          {
+            "lovDisplay": "applyCCLandingPageScreenListTitle2",
+            "lovValue": "applyCCLandingPageScreenListTitle2",
+            "lovKey": "apply-cc.landing-page.2.title"
+          },
+          {
+            "lovDisplay": "applyCCLandingPageScreenListDescription2",
+            "lovValue": "applyCCLandingPageScreenListDescription2",
+            "lovKey": "apply-cc.landing-page.2.description"
+          },
+          {
+            "lovDisplay": "applyCCLandingPageScreenListIcon2",
+            "lovValue": "applyCCLandingPageScreenListIcon2",
+            "lovKey": "apply-cc.landing-page.2.icon"
+          }
+        ],
+        "3": [
+          {
+            "lovDisplay": "applyCCLandingPageScreenListTitle3",
+            "lovValue": "applyCCLandingPageScreenListTitle3",
+            "lovKey": "apply-cc.landing-page.3.title"
+          },
+          {
+            "lovDisplay": "applyCCLandingPageScreenListDescription3",
+            "lovValue": "applyCCLandingPageScreenListDescription3",
+            "lovKey": "apply-cc.landing-page.3.description"
+          },
+          {
+            "lovDisplay": "applyCCLandingPageScreenListIcon3",
+            "lovValue": "applyCCLandingPageScreenListIcon3",
+            "lovKey": "apply-cc.landing-page.3.icon"
+          }
+        ]
+      }
     });
   }
 });
