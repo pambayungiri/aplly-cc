@@ -409,41 +409,31 @@ app.get("/apc/v1/personal-data", (req, res) => {
 });
 
 app.get("/apc/v1/reference", (req, res) => {
-  res.send({
-      dataProtected: {
-        categories: [
-          {
-            key: "Travel",
-            value: "Travel",
-            image:
-              "https://mav-baseurl.co.id/asset/v1/image/9jcPmyDTYXKx6J4SlS-OX.png",
-          },
-          {
-            key: "Shopping",
-            value: "Shopping",
-            image:
-              "https://mav-baseurl.co.id/asset/v1/image/9jcPmyDTYXKx6J4SlS-OX.png",
-          },
-          {
-            key: "Cashback",
-            value: "Cashback",
-            image:
-              "https://mav-baseurl.co.id/asset/v1/image/9jcPmyDTYXKx6J4SlS-OX.png",
-          },
-          {
-            key: "Health",
-            value: "Health",
-            image:
-              "https://mav-baseurl.co.id/asset/v1/image/9jcPmyDTYXKx6J4SlS-OX.png",
-          },
-          {
-            key: "Game",
-            value: "Game",
-            image:
-              "https://mav-baseurl.co.id/asset/v1/image/9jcPmyDTYXKx6J4SlS-OX.png",
-          },
-        ],
-      }
+  res.send(        {
+    "dataProtected": {
+      "categories": [
+        {
+          "image": "https://mav-baseurl.co.id/asset/v1/image/9jcPmyDTYXKx6J4SlS-OX.png",
+          "value": "applyCcCategoryCashbackLockey",
+          "key": "CASHBACK"
+        },
+        {
+          "image": "https://mav-baseurl.co.id/asset/v1/image/9jcPmyDTYXKx6J4SlS-OX.png",
+          "value": "applyCcCategoryTravelLockey",
+          "key": "TRAVEL"
+        },
+        {
+          "image": "https://mav-baseurl.co.id/asset/v1/image/9jcPmyDTYXKx6J4SlS-OX.png",
+          "value": "applyCcCategoryShoppingLockey",
+          "key": "SHOPPING"
+        },
+        {
+          "image": "https://mav-baseurl.co.id/asset/v1/image/9jcPmyDTYXKx6J4SlS-OX.png",
+          "value": "applyCcCategoryHealthLockey",
+          "key": "HEALTH"
+        }
+      ]
+    }
   });
 });
 
