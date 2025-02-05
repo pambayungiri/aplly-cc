@@ -16,7 +16,347 @@ app.use(express.urlencoded({extended : true}));
 
 app.post("/apc/v1/card-list", (req, res) => {
   let data = {
-    dataProtected: "DC70103F14ECDFBFE521405FEB70895AEAAF6C047D5F52041A998A218BF52788083314B1A6C5B5BE15DC060C9BBA2928D10E2E436467EE75DA49D102FD508D8670672380E3E54C8C9192BFDEEECFF2466B79BE206DF62BF8518225FEA42CBD8BC4881964424E09CFADAC8D74D2706D999C6225F6C62DF3312040A9D4A6CE98300A88145882C4E9B8D6E5075A6C187D34EBCBEA6DE4EC57C2191B02E5A4D6FDC0724111C5D2AF395BA60B6A430B4A397A7F3C1A42FD5FB4190630BEB03E227D1F515F40614A98A70C571B0069CAD08594ED5C3B7096FA37A13A217AC58A423D87C3D678442D4F9C26AE22C385BD80F790E54A1EE48498184615C24196C82306483E48F33DA2768A1626DF1EE5BE8828DCC0444CE5F78B2A81DE7EC9AC16F0991C7FB02026C24C397D8BBB74067D9EC026E143E621AB1D9CBEC7E5AC3E50039E6189E4FE4F62D9C07D542BD1E8B30D79C414BF10570DD30B104952716C4677598A5F05E2CBA23E1A7E201AF6F060B70289A07C7173F3029FD8674CB39FAD72CB744C5B7405E19439CD8C98631BD8088151F940991205D8C8B67595F86FF0DCABB9530427D84D744A050434CEC751738892501BE8002BDA930326509686ABA18052D5AC0F1AB6F62BB5915FD51C7EE45C02B643CA65E575F28A1276EE676270143FA861E4C4B4139B5FAFFE41AC234B976573C6172E66CDECD8672CF19DCE4F68E92FC336573D08380FA04E0209CD2423B11C54CA61CED8241E4CEE82524F98EC2121A21ABD582E5587EFB4B548FD7141C5E078B05D72C4E47AC13B6679D60C66D8814CBE750E6ECA00C51C2BAE209FE48F426F9B790613CFAE82E4FB25D642BFD081327525DB75DB774917C80977ECCC0EB59A05AC6ED367D7B903F542F4A25992DA6D5F5852061B1AE19A2443433C31E3FB08497A8A22A5F05C6BC2C73E16EF0B424C19AABD2AB9ED3FD688E7A83522CA4BB10785659CEDB58911109B51E6AFF28C93860016E6CA328B272F251BED08B0EB181DFBB00E16893C16A782E6D04C2E93548244CCF0F339D872C3810993A3211652CC48ADF6AA0F7D3D483FF4ABDCA2165D1D2D98D0B936D55C42D6EACE3C872B4DC74D59711F2F983EDD1B51C8799ED4498B47C736615B971D0539365352252991AFBD6D3BCBA893F0363DD31D961B4EF6994BD3F94DFC53BB2794F3B5BB9B1A96439CE2C51A87461AD57F1E34B1919C264A45586C7B26E303CABB678B32293EDBB36BDD9C34815BA5912B11668AB77834FF79DA7E1BDE23B5B7DB08AC961B91124B2C67A2C581264577FDC770FEC79D66618C6CE15ADB0658167647746A54CA2C51B5FAF242CEA7EA1DC5D1FC848A89DB15DE293078E1A31A694256ED76A3137F2868C741D15B419EB97CA903C90871DEBBB202C1778E062B0BAD30BCD573AB9AFEE9BFDA06F38E6EDB634E3B36BEC5B7BCF01ED8B9F18D94BC0E3B83293118FD8B657F07309A13A3B1831F3A3D78D5999316E355BE228EC5094E9140F479733C2E2595DED09D1033AB8D67B307055185F301F407361D8C30DB14444E135F9B51A569F8CA60484CF345C9AD95E0A1E23EA2B6C32D3ECAC0B46B171EC1F76BC2C01AF38E853D8AE66341997D992B46B1A7BC01248D34501E559B2EB85FF0D96D425FC45AC10AF4793D0658A8EEB6961DFE571E152C256DD0D36BC2E1BDAE0A561FB410FF3779DC5BFF08B871C92443BFB477C67DF2B7C957B36B49787419123B7C8CF3BEB62C3C9A63EC7E715F4081C7BFA066ADA4685854044CE4A28A37A93F0E8D74C5695E391F67DD76CDEC6B61B8FD3578399FA0C1A5CA3635514B9590942C79BB9F0ECC57117AAC92C54F22B984DC7CC19E41C5C10162DCA8A47945539CDB62D4442EECF8B0CBF9159C0F7AEA4C06455237E82C8798C50369EFF8951DB9AC1F189F3887B2D7E736E58B2B01E4C99EF1AB3DB000D3EE7D2081CEC3309BDE4FA3CF6F6001F984B7603C5BA873DB218583AE035058BC67AB760D8A364C1AF2F25CE71027FC5D29F8B3F5508133C155C5AD2FAADE25A7A811607E5A079B3E04E70CE15F04ACDD0957BDE28FA4852485741275B4EF87BD9410883E582D8E64C6AD24C453CC3F19519D42F36844919E20A27A5B689332DB4321A76368A16B031E3AA21A60250943D71BAC568760D92DA52E0110BFE1109134780E30E75864C64AC51E4633DA6109A4683AA1B51DC9A83BC3460F0DC3D4A3040A7E20099F989E8ADAED77089159FAD55587443A9216954A223A8516E3F70CB4047DDAA4CEB5D126134BE76D19A9B5A1020AF659EC0B269293CFA89FB84E9D4591C4D37C1BD34FA1ABF93BAF150415E6A379C2517745FCD00280ADF3EA3CCFE42EA4F081668BB02B307A85CC2F5D6ED0C938941ADD264C0694C90915234C33830C9D35E55853E9F89756D9F73371F971E3F9C02C7E181BB416F9B8305E0BEF1E5987FF7ED01B9D920BEFF3234C92F8FF5D46E9919DBAF2A50E43D6822361693D867313ED55FD6AB98DB826AC5FCB239A5157F6603D7BC59B097221842614D61861D1D5B4C4238D8433D6C7F46B3143E74663903159E67C170C12E3404D2A916871939A421B76AE81185AE0510FE473FC71741E5DB64729BCD464A5C721A0A29511E55196800A4D800A70684B61D939DBC7F57F983E33EF9B30453219ED51F8F25A3C36E80894560E9D41F6C24790D5D59F287E35193BA5361C109B290B51AACD9DAD91DE2BF1DAA74EC670914BCFF621A746C2620DFF15E48C4901C14FE4C90004425521B5FCB6673F9625535EB78F5F8B69D3D16D0C2E9485DBA745AC25EF7679805590C9394C53F6D69AB5B4811EEDD993A10E3B332B7C2112181F61FDF9CA0C4E0A7F7FB16CED2911073B0AD5677CE5604641C9A45701EFB84DE3A186BB61D25819ED21338C10FA96724C83FB46E3574C62999FA65AA758FB7C1613F3A44A8D0300716ED24FCB61CBCC6723918912C60EBCD2DD57F4F742AD35614BC5F73471CB8DDA2C72DF7EC30D524AB22E7C0377EB6005907DD414394BDC7EB3",
+    dataProtected: {
+      cardList: [
+        {
+          id: "id",
+          binFirstDigit: "binFirstDigit",
+          cardProductName: "Garuda Visa Signature",
+          cardProductDescription: "sdsdssd",
+          isRecomend: true,
+          category: "Travel",
+          promo: {
+            title: "applyCcDetailSceenPromoTitle",
+            description: {
+              id: [{}, {}],
+              en: [{}, {}],
+            },
+          },
+          benefit: {
+            title: "applyCcDetailSceenBenefitTitle",
+            description: {
+              id: [{}, {}],
+              en: [{}, {}],
+            },
+          },
+          benefitCount: 8,
+          image: "/src/assets/images/credit-card-1.svg",
+          position: 1,
+          cardProfile: {
+            income: "A",
+            promo: ["HIBURAN", "TOKO"],
+          },
+        },
+        {
+          id: "1234568879",
+          binFirstDigit: "binFirstDigit",
+          cardProductName: "Mastercard World",
+          cardProductDescription:
+            "Kebebasan bertransaksi global dengan limit tinggi.",
+          isRecomend: true,
+          category: "Shopping",
+          promo: {
+            title:
+              "Ajukan hingga 31 Desember 2024 biar langsung dapetin promo spesialnya:",
+            description: {
+              id: [
+                "Instan Upgrade ke Garuda Gold Privilege",
+                "Akses ke Garuda Executive Lounge (Domestik dan Internasional)",
+              ],
+              en: [],
+            },
+          },
+          benefit: {
+            title: "applyCcDetailSceenBenefitTitle",
+            description: {
+              id: [
+                "Dapetin miles lebih banyak setiap transaksi Rp20.000 / 2 Garuda Miles",
+                "Extra diskon 10% setiap hari Rabu di website/App Garuda Indonesia",
+                "Welcome bonus sebesar 35.000 Garuda Miles (setara tiket pergi ke Jepang dengan Garuda Indonesia)",
+                "Jaminan perlindungan asuransi kecelakaan dalam perjalanan dengan santunan hingga maksimum Rp 3 milyar untuk pemegang Kartu Kredit Garuda BNI Visa Signature dan Rp 1 milyar untuk pemegang Kartu Kredit Garuda BNI Visa Platinum.",
+              ],
+              en: [{}, {}],
+            },
+          },
+          benefitCount: 8,
+          image: "/src/assets/images/credit-card-2.svg",
+          position: 1,
+          cardProfile: {
+            income: "A",
+            promo: ["HIBURAN", "TOKO"],
+          },
+        },
+        {
+          id: "id",
+          binFirstDigit: "binFirstDigit",
+          cardProductName: "Garuda Visa Platinum",
+          cardProductDescription: "cardProductDescription",
+          isRecomend: true,
+          category: "Cashback",
+          promo: {
+            title: "applyCcDetailSceenPromoTitle",
+            description: {
+              id: [{}, {}],
+              en: [{}, {}],
+            },
+          },
+          benefit: {
+            title: "applyCcDetailSceenBenefitTitle",
+            description: {
+              id: [{}, {}],
+              en: [{}, {}],
+            },
+          },
+          benefitCount: 8,
+          image: "/src/assets/images/credit-card-3.svg",
+          position: 1,
+          cardProfile: {
+            income: "A",
+            promo: ["HIBURAN", "TOKO"],
+          },
+        },
+        {
+          id: "id",
+          binFirstDigit: "binFirstDigit",
+          cardProductName: "Garuda Visa Platinum",
+          cardProductDescription:
+            "Nikmati keuntungan menarik dalam setiap perjalanan.",
+          isRecomend: true,
+          category: "Health",
+          promo: {
+            title: "applyCcDetailSceenPromoTitle",
+            description: {
+              id: [{}, {}],
+              en: [{}, {}],
+            },
+          },
+          benefit: {
+            title: "applyCcDetailSceenBenefitTitle",
+            description: {
+              id: [{}, {}],
+              en: [{}, {}],
+            },
+          },
+          benefitCount: 8,
+          image: "/src/assets/images/credit-card-3.svg",
+          position: 1,
+          cardProfile: {
+            income: "A",
+            promo: ["HIBURAN", "TOKO"],
+          },
+        },
+        {
+          id: "id",
+          binFirstDigit: "binFirstDigit",
+          cardProductName: "Garuda Visa Platinum",
+          cardProductDescription:
+            "Nikmati keuntungan menarik dalam setiap perjalanan.",
+          isRecomend: true,
+          category: "Travel",
+          promo: {
+            title: "applyCcDetailSceenPromoTitle",
+            description: {
+              id: [{}, {}],
+              en: [{}, {}],
+            },
+          },
+          benefit: {
+            title: "applyCcDetailSceenBenefitTitle",
+            description: {
+              id: [{}, {}],
+              en: [{}, {}],
+            },
+          },
+          benefitCount: 8,
+          image: "/src/assets/images/credit-card-3.svg",
+          position: 1,
+          cardProfile: {
+            income: "A",
+            promo: ["HIBURAN", "TOKO"],
+          },
+        },
+        {
+          id: "id",
+          binFirstDigit: "binFirstDigit",
+          cardProductName: "Garuda Visa Platinum",
+          cardProductDescription:
+            "Nikmati keuntungan menarik dalam setiap perjalanan.",
+          isRecomend: true,
+          category: "Travel",
+          promo: {
+            title: "applyCcDetailSceenPromoTitle",
+            description: {
+              id: [{}, {}],
+              en: [{}, {}],
+            },
+          },
+          benefit: {
+            title: "applyCcDetailSceenBenefitTitle",
+            description: {
+              id: [{}, {}],
+              en: [{}, {}],
+            },
+          },
+          benefitCount: 8,
+          image: "/src/assets/images/credit-card-3.svg",
+          position: 1,
+          cardProfile: {
+            income: "A",
+            promo: ["HIBURAN", "TOKO"],
+          },
+        },
+        {
+          id: "id",
+          binFirstDigit: "binFirstDigit",
+          cardProductName: "Garuda Visa Platinum",
+          cardProductDescription:
+            "Nikmati keuntungan menarik dalam setiap perjalanan.",
+          isRecomend: true,
+          category: "Travel",
+          promo: {
+            title: "applyCcDetailSceenPromoTitle",
+            description: {
+              id: [{}, {}],
+              en: [{}, {}],
+            },
+          },
+          benefit: {
+            title: "applyCcDetailSceenBenefitTitle",
+            description: {
+              id: [{}, {}],
+              en: [{}, {}],
+            },
+          },
+          benefitCount: 8,
+          image: "/src/assets/images/credit-card-3.svg",
+          position: 1,
+          cardProfile: {
+            income: "A",
+            promo: ["HIBURAN", "TOKO"],
+          },
+        },
+        {
+          id: "id",
+          binFirstDigit: "binFirstDigit",
+          cardProductName: "Garuda Visa Platinum",
+          cardProductDescription:
+            "Nikmati keuntungan menarik dalam setiap perjalanan.",
+          isRecomend: true,
+          category: "Travel",
+          promo: {
+            title: "applyCcDetailSceenPromoTitle",
+            description: {
+              id: [{}, {}],
+              en: [{}, {}],
+            },
+          },
+          benefit: {
+            title: "applyCcDetailSceenBenefitTitle",
+            description: {
+              id: [{}, {}],
+              en: [{}, {}],
+            },
+          },
+          benefitCount: 8,
+          image: "/src/assets/images/credit-card-3.svg",
+          position: 1,
+          cardProfile: {
+            income: "A",
+            promo: ["HIBURAN", "TOKO"],
+          },
+        },
+        {
+          id: "id",
+          binFirstDigit: "binFirstDigit",
+          cardProductName: "Garuda Visa Platinum",
+          cardProductDescription:
+            "Nikmati keuntungan menarik dalam setiap perjalanan.",
+          isRecomend: true,
+          category: "Travel",
+          promo: {
+            title: "applyCcDetailSceenPromoTitle",
+            description: {
+              id: [{}, {}],
+              en: [{}, {}],
+            },
+          },
+          benefit: {
+            title: "applyCcDetailSceenBenefitTitle",
+            description: {
+              id: [{}, {}],
+              en: [{}, {}],
+            },
+          },
+          benefitCount: 8,
+          image: "/src/assets/images/credit-card-3.svg",
+          position: 1,
+          cardProfile: {
+            income: "A",
+            promo: ["HIBURAN", "TOKO"],
+          },
+        },
+        {
+          id: "id",
+          binFirstDigit: "binFirstDigit",
+          cardProductName: "Garuda Visa Platinum",
+          cardProductDescription:
+            "Nikmati keuntungan menarik dalam setiap perjalanan.",
+          isRecomend: true,
+          category: "Travel",
+          promo: {
+            title: "applyCcDetailSceenPromoTitle",
+            description: {
+              id: [{}, {}],
+              en: [{}, {}],
+            },
+          },
+          benefit: {
+            title: "applyCcDetailSceenBenefitTitle",
+            description: {
+              id: [{}, {}],
+              en: [{}, {}],
+            },
+          },
+          benefitCount: 8,
+          image: "/src/assets/images/credit-card-3.svg",
+          position: 1,
+          cardProfile: {
+            income: "A",
+            promo: ["HIBURAN", "TOKO"],
+          },
+        },
+        {
+          id: "id",
+          binFirstDigit: "binFirstDigit",
+          cardProductName: "Garuda Visa Platinum",
+          cardProductDescription:
+            "Nikmati keuntungan menarik dalam setiap perjalanan.",
+          isRecomend: true,
+          category: "Travel",
+          promo: {
+            title: "applyCcDetailSceenPromoTitle",
+            description: {
+              id: [{}, {}],
+              en: [{}, {}],
+            },
+          },
+          benefit: {
+            title: "applyCcDetailSceenBenefitTitle",
+            description: {
+              id: [{}, {}],
+              en: [{}, {}],
+            },
+          },
+          benefitCount: 8,
+          image: "/src/assets/images/credit-card-3.svg",
+          position: 1,
+          cardProfile: {
+            income: "A",
+            promo: ["HIBURAN", "TOKO"],
+          },
+        },
+      ],
+    },
     data: {
       page: 1,
       totalPage: 5,
@@ -24,21 +364,21 @@ app.post("/apc/v1/card-list", (req, res) => {
     },
   };
 
-  // if (req.body.dataProtected && req.body.dataProtected.category) {
-  //   data.dataProtected.cardList = data.dataProtected.cardList.filter(
-  //     (item) =>
-  //       item.category.toLowerCase() ===
-  //       req.body.dataProtected.category.toLowerCase()
-  //   );
-  // }
+  if (req.body.dataProtected && req.body.dataProtected.category) {
+    data.dataProtected.cardList = data.dataProtected.cardList.filter(
+      (item) =>
+        item.category.toLowerCase() ===
+        req.body.dataProtected.category.toLowerCase()
+    );
+  }
 
-  // if (req.body.dataProtected && req.body.dataProtected.filterName) {
-  //   data.dataProtected.cardList = data.dataProtected.cardList.filter((item) =>
-  //     item.cardProductName
-  //       .toLowerCase()
-  //       .includes(req.body.dataProtected.filterName.toLowerCase())
-  //   );
-  // }
+  if (req.body.dataProtected && req.body.dataProtected.filterName) {
+    data.dataProtected.cardList = data.dataProtected.cardList.filter((item) =>
+      item.cardProductName
+        .toLowerCase()
+        .includes(req.body.dataProtected.filterName.toLowerCase())
+    );
+  }
 
   res.json({ dataProtected : data.dataProtected, data : data.data });
 });
@@ -70,8 +410,41 @@ app.get("/apc/v1/personal-data", (req, res) => {
 
 app.get("/apc/v1/reference", (req, res) => {
   res.send({
-    "dataProtected": "97EBD18E3D626B86380CACDB58154A96E1029A3E9214E813FFF9E0E2DAC7E17DBFD7143FD2255325B403943E48A8827E413FAA227189F952D823DF8216E82EF706CCC760740FED25BE19BB861418C448EF6FA034B49E8321F29179C221EE534722C5CB445FDD65A310294D96420B78A922B4691B988751E41B93BB495B314DF93276408F025EA2E40680BC1DA6ECEB6258F958179A95B9720144AEB0F448C96820BD03228EA63FD76B9773BF290DAA692030E8C2A4335ACA03B542DA25F6E4F0901F9A6D1DFD36AEF3D85BBAA999340761DBD6E4AAA3AC9C90A08A01D2DEB841723F682ECA1706495AB18979AB8E25421824F1D17166FD6A6D5879D0ED045D11F7A98D5958FABD53C353D65ED9CAA23A8AF2B322A8A1B32642E17A9629EA27FE7557C0ABEE7A49EA5F21FF1C6E714CFCE7596991230E0088FD6F64A94F34DAD85A0349822E0F0934278B0DF643978885FFEA30F5150D8ECA15141E6A75524BE92853A96D22903EF048B980C4A62573346ADD05C1C7D54F1275300114E2FC24EC8FD9872A57C5C3849E32ADF0D5B3DF67AD9BA6ECA52DF46D46377A5C90DCE6D04E1D9ACAF45EE5F90CCB6E0F256F206B58BE1D9E1DBEBA6E9271CF7BEE2001051315B64833CA4E212DAC33B015CF4C11E3E13C9DC04EBB9448A863B6C0840DD960292C751CD25A465ECE8FB9B5CB1F90B8FE77CCBD31A64D83E767104F702FF01E667785C260227B7BF519C61BD3FFE24C4EDF3334A9852D6E2D2F43D1E97102D496CD4D5F49DE56186CB1F2FD8D9895CC8CCE034EAA22C4E3A3348F0672376DCA05520F6CA1407B1C4063E514AE39351F2B16EC4CB2B22CCB100F8094AF06792CE9CBFE47DA7B"
-});
+      dataProtected: {
+        categories: [
+          {
+            key: "Travel",
+            value: "Travel",
+            image:
+              "https://mav-baseurl.co.id/asset/v1/image/9jcPmyDTYXKx6J4SlS-OX.png",
+          },
+          {
+            key: "Shopping",
+            value: "Shopping",
+            image:
+              "https://mav-baseurl.co.id/asset/v1/image/9jcPmyDTYXKx6J4SlS-OX.png",
+          },
+          {
+            key: "Cashback",
+            value: "Cashback",
+            image:
+              "https://mav-baseurl.co.id/asset/v1/image/9jcPmyDTYXKx6J4SlS-OX.png",
+          },
+          {
+            key: "Health",
+            value: "Health",
+            image:
+              "https://mav-baseurl.co.id/asset/v1/image/9jcPmyDTYXKx6J4SlS-OX.png",
+          },
+          {
+            key: "Game",
+            value: "Game",
+            image:
+              "https://mav-baseurl.co.id/asset/v1/image/9jcPmyDTYXKx6J4SlS-OX.png",
+          },
+        ],
+      }
+  });
 });
 
 app.get("/reference/v1/lov", (req, res) => {
