@@ -16,352 +16,231 @@ app.use(express.urlencoded({extended : true}));
 
 app.post("/apc/v1/card-list", (req, res) => {
   let data = {
-    dataProtected: {
-      cardList: [
+    "data": {
+      "totalPage": 1,
+      "page": 1,
+      "noOfRecord": 10
+    },
+    "dataProtected": {
+      "cardList": [
         {
-          id: "id",
-          binFirstDigit: "binFirstDigit",
-          cardProductName: "Garuda Visa Signature",
-          cardProductDescription: "sdsdssd",
-          isRecomend: true,
-          category: "Travel",
-          promo: {
-            title: "applyCcDetailSceenPromoTitle",
-            description: {
-              id: [{}, {}],
-              en: [{}, {}],
-            },
+          "id": "Y8DErxapFYL46_aCP8Orz",
+          "cardProductDescription": "BNI Mastercard Titanium Description",
+          "cardProfile": {
+            "promo": [
+              "HIBURAN",
+              "TOKO"
+            ],
+            "income": "A"
           },
-          benefit: {
-            title: "applyCcDetailSceenBenefitTitle",
-            description: {
-              id: [{}, {}],
-              en: [{}, {}],
-            },
-          },
-          benefitCount: 8,
-          image: "/src/assets/images/credit-card-1.svg",
-          position: 1,
-          cardProfile: {
-            income: "A",
-            promo: ["HIBURAN", "TOKO"],
-          },
-        },
-        {
-          id: "1234568879",
-          binFirstDigit: "binFirstDigit",
-          cardProductName: "Mastercard World",
-          cardProductDescription:
-            "Kebebasan bertransaksi global dengan limit tinggi.",
-          isRecomend: true,
-          category: "Shopping",
-          promo: {
-            title:
-              "Ajukan hingga 31 Desember 2024 biar langsung dapetin promo spesialnya:",
-            description: {
-              id: [
-                "Instan Upgrade ke Garuda Gold Privilege",
-                "Akses ke Garuda Executive Lounge (Domestik dan Internasional)",
+          "benefit": {
+            "title": "applyCcDetailSceenBenefitTitle",
+            "description": {
+              "en": [
+                "Shop easily and securely on e-commerce up to Rp10 million per day.",
+                "Your Mastercard can be used for transactions both domestically and internationally.",
+                "Welcome package of 120,000 KrisFlyer miles (equivalent to a round-trip business class ticket from Jakarta to Dubai/Hong Kong/Tokyo on Singapore Airlines).",
+                "Welcome package of 120,000 KrisFlyer miles (equivalent to a round-trip business class ticket from Jakarta to Dubai/Hong Kong/Tokyo on Singapore Airlines)."
               ],
-              en: [],
-            },
-          },
-          benefit: {
-            title: "applyCcDetailSceenBenefitTitle",
-            description: {
-              id: [
+              "id": [
                 "Dapetin miles lebih banyak setiap transaksi Rp20.000 / 2 Garuda Miles",
                 "Extra diskon 10% setiap hari Rabu di website/App Garuda Indonesia",
                 "Welcome bonus sebesar 35.000 Garuda Miles (setara tiket pergi ke Jepang dengan Garuda Indonesia)",
-                "Jaminan perlindungan asuransi kecelakaan dalam perjalanan dengan santunan hingga maksimum Rp 3 milyar untuk pemegang Kartu Kredit Garuda BNI Visa Signature dan Rp 1 milyar untuk pemegang Kartu Kredit Garuda BNI Visa Platinum.",
+                "Jaminan perlindungan asuransi kecelakaan dalam perjalanan dengan santunan hingga maksimum Rp 3 milyar untuk pemegang Kartu Kredit Garuda BNI Visa Signature dan Rp 1 milyar untuk pemegang Kartu Kredit Garuda BNI Visa Platinum."
+              ]
+            }
+          },
+          "promo": {
+            "title": "applyCcDetailSceenPromoTitle",
+            "description": {
+              "en": [],
+              "id": []
+            }
+          },
+          "benefitCount": 4,
+          "category": "TRAVEL",
+          "position": 1,
+          "cardProductName": "BNI Mastercard Titanium",
+          "isRecommend": null,
+          "binFirstDigit": "524125",
+          "image": ""
+        },
+        {
+          "id": "kZleLawaNT09De6BEEcco",
+          "cardProductDescription": "Kebebasan bertransaksi global dengan limit tinggi.",
+          "cardProfile": {
+            "promo": [
+              "HIBURAN",
+              "TOKO"
+            ],
+            "income": "A"
+          },
+          "benefit": {
+            "title": "applyCcDetailSceenBenefitTitle",
+            "description": {
+              "en": [
+                "Shop easily and securely on e-commerce up to Rp10 million per day.",
+                "Your Mastercard can be used for transactions both domestically and internationally.",
+                "Welcome package of 120,000 KrisFlyer miles (equivalent to a round-trip business class ticket from Jakarta to Dubai/Hong Kong/Tokyo on Singapore Airlines).",
+                "Welcome package of 120,000 KrisFlyer miles (equivalent to a round-trip business class ticket from Jakarta to Dubai/Hong Kong/Tokyo on Singapore Airlines)."
               ],
-              en: [{}, {}],
-            },
+              "id": [
+                "Dapetin miles lebih banyak setiap transaksi Rp20.000 / 2 Garuda Miles",
+                "Extra diskon 10% setiap hari Rabu di website/App Garuda Indonesia",
+                "Welcome bonus sebesar 35.000 Garuda Miles (setara tiket pergi ke Jepang dengan Garuda Indonesia)",
+                "Jaminan perlindungan asuransi kecelakaan dalam perjalanan dengan santunan hingga maksimum Rp 3 milyar untuk pemegang Kartu Kredit Garuda BNI Visa Signature dan Rp 1 milyar untuk pemegang Kartu Kredit Garuda BNI Visa Platinum."
+              ]
+            }
           },
-          benefitCount: 8,
-          image: "/src/assets/images/credit-card-2.svg",
-          position: 1,
-          cardProfile: {
-            income: "A",
-            promo: ["HIBURAN", "TOKO"],
+          "promo": {
+            "title": "applyCcDetailSceenPromoTitle",
+            "description": {
+              "en": [],
+              "id": []
+            }
           },
+          "benefitCount": 4,
+          "category": "CASHBACK",
+          "position": 2,
+          "cardProductName": "Mastercard World",
+          "isRecommend": null,
+          "binFirstDigit": "510055",
+          "image": "https://mav-apigw-ext-test2.bni.co.id:48202/asset/v1/image/V0hiW-zDNDOuW6lXjGkjg.png"
         },
         {
-          id: "id",
-          binFirstDigit: "binFirstDigit",
-          cardProductName: "Garuda Visa Platinum",
-          cardProductDescription: "cardProductDescription",
-          isRecomend: true,
-          category: "Cashback",
-          promo: {
-            title: "applyCcDetailSceenPromoTitle",
-            description: {
-              id: [{}, {}],
-              en: [{}, {}],
-            },
+          "id": "CnApMNCssz-4nHMrtdE15",
+          "cardProductDescription": "Nikmati keuntungan eksklusif dengan di setiap perjalanan.",
+          "cardProfile": {
+            "promo": [
+              "HIBURAN",
+              "TOKO"
+            ],
+            "income": "A"
           },
-          benefit: {
-            title: "applyCcDetailSceenBenefitTitle",
-            description: {
-              id: [{}, {}],
-              en: [{}, {}],
-            },
+          "benefit": {
+            "title": "applyCcDetailSceenBenefitTitle",
+            "description": {
+              "en": [
+                "Shop easily and securely on e-commerce up to Rp10 million per day.",
+                "Your Mastercard can be used for transactions both domestically and internationally.",
+                "Welcome package of 120,000 KrisFlyer miles (equivalent to a round-trip business class ticket from Jakarta to Dubai/Hong Kong/Tokyo on Singapore Airlines).",
+                "Welcome package of 120,000 KrisFlyer miles (equivalent to a round-trip business class ticket from Jakarta to Dubai/Hong Kong/Tokyo on Singapore Airlines)."
+              ],
+              "id": [
+                "Dapetin miles lebih banyak setiap transaksi Rp20.000 / 2 Garuda Miles",
+                "Extra diskon 10% setiap hari Rabu di website/App Garuda Indonesia",
+                "Welcome bonus sebesar 35.000 Garuda Miles (setara tiket pergi ke Jepang dengan Garuda Indonesia)",
+                "Jaminan perlindungan asuransi kecelakaan dalam perjalanan dengan santunan hingga maksimum Rp 3 milyar untuk pemegang Kartu Kredit Garuda BNI Visa Signature dan Rp 1 milyar untuk pemegang Kartu Kredit Garuda BNI Visa Platinum."
+              ]
+            }
           },
-          benefitCount: 8,
-          image: "/src/assets/images/credit-card-3.svg",
-          position: 1,
-          cardProfile: {
-            income: "A",
-            promo: ["HIBURAN", "TOKO"],
+          "promo": {
+            "title": "Ajukan hingga 31 Desember 2024 biar langsung dapetin promo spesialnya:",
+            "description": {
+              "en": [
+                "Instan Upgrade ke Garuda Gold Privilege",
+                "Akses ke Garuda Executive Lounge (Domestik dan Internasional)"
+              ],
+              "id": [
+                "Instan Upgrade ke Garuda Gold Privilege",
+                "Akses ke Garuda Executive Lounge (Domestik dan Internasional)"
+              ]
+            }
           },
+          "benefitCount": 4,
+          "category": "TRAVEL",
+          "position": 3,
+          "cardProductName": "Garuda Visa Signature",
+          "isRecommend": null,
+          "binFirstDigit": "466573",
+          "image": "https://mav-apigw-ext-test2.bni.co.id:48202/asset/v1/image/J3sA1Afyy63As4NmxCvSd.png"
         },
         {
-          id: "id",
-          binFirstDigit: "binFirstDigit",
-          cardProductName: "Garuda Visa Platinum",
-          cardProductDescription:
-            "Nikmati keuntungan menarik dalam setiap perjalanan.",
-          isRecomend: true,
-          category: "Health",
-          promo: {
-            title: "applyCcDetailSceenPromoTitle",
-            description: {
-              id: [{}, {}],
-              en: [{}, {}],
-            },
+          "id": "_C_HJmdT19NHTf0dwsn7F",
+          "cardProductDescription": "Nikmati keuntungan menarik dalam setiap perjalanan.",
+          "cardProfile": {
+            "promo": [
+              "HIBURAN",
+              "TOKO"
+            ],
+            "income": "A"
           },
-          benefit: {
-            title: "applyCcDetailSceenBenefitTitle",
-            description: {
-              id: [{}, {}],
-              en: [{}, {}],
-            },
+          "benefit": {
+            "title": "applyCcDetailSceenBenefitTitle",
+            "description": {
+              "en": [
+                "Shop easily and securely on e-commerce up to Rp10 million per day.",
+                "Your Mastercard can be used for transactions both domestically and internationally.",
+                "Welcome package of 120,000 KrisFlyer miles (equivalent to a round-trip business class ticket from Jakarta to Dubai/Hong Kong/Tokyo on Singapore Airlines).",
+                "Welcome package of 120,000 KrisFlyer miles (equivalent to a round-trip business class ticket from Jakarta to Dubai/Hong Kong/Tokyo on Singapore Airlines)."
+              ],
+              "id": [
+                "Dapetin miles lebih banyak setiap transaksi Rp20.000 / 2 Garuda Miles",
+                "Extra diskon 10% setiap hari Rabu di website/App Garuda Indonesia",
+                "Welcome bonus sebesar 35.000 Garuda Miles (setara tiket pergi ke Jepang dengan Garuda Indonesia)",
+                "Jaminan perlindungan asuransi kecelakaan dalam perjalanan dengan santunan hingga maksimum Rp 3 milyar untuk pemegang Kartu Kredit Garuda BNI Visa Signature dan Rp 1 milyar untuk pemegang Kartu Kredit Garuda BNI Visa Platinum."
+              ]
+            }
           },
-          benefitCount: 8,
-          image: "/src/assets/images/credit-card-3.svg",
-          position: 1,
-          cardProfile: {
-            income: "A",
-            promo: ["HIBURAN", "TOKO"],
+          "promo": {
+            "title": "applyCcDetailSceenPromoTitle",
+            "description": {
+              "en": [],
+              "id": []
+            }
           },
+          "benefitCount": 4,
+          "category": "SHOPPING",
+          "position": 4,
+          "cardProductName": "Garuda Visa Platinum",
+          "isRecommend": null,
+          "binFirstDigit": "466574",
+          "image": "https://mav-apigw-ext-test2.bni.co.id:48202/asset/v1/image/2wzzdbWnj0gr23_w_rGeA.png"
         },
         {
-          id: "id",
-          binFirstDigit: "binFirstDigit",
-          cardProductName: "Garuda Visa Platinum",
-          cardProductDescription:
-            "Nikmati keuntungan menarik dalam setiap perjalanan.",
-          isRecomend: true,
-          category: "Travel",
-          promo: {
-            title: "applyCcDetailSceenPromoTitle",
-            description: {
-              id: [{}, {}],
-              en: [{}, {}],
-            },
+          "id": "hUjU2JLEP_BbbBP1WKcfn",
+          "cardProductDescription": "Rasakan lebih banyak keuntungan dalam setiap perjalananmu.",
+          "cardProfile": {
+            "promo": [
+              "HIBURAN",
+              "TOKO"
+            ],
+            "income": "A"
           },
-          benefit: {
-            title: "applyCcDetailSceenBenefitTitle",
-            description: {
-              id: [{}, {}],
-              en: [{}, {}],
-            },
+          "benefit": {
+            "title": "applyCcDetailSceenBenefitTitle",
+            "description": {
+              "en": [
+                "Shop easily and securely on e-commerce up to Rp10 million per day.",
+                "Your Mastercard can be used for transactions both domestically and internationally.",
+                "Welcome package of 120,000 KrisFlyer miles (equivalent to a round-trip business class ticket from Jakarta to Dubai/Hong Kong/Tokyo on Singapore Airlines).",
+                "Welcome package of 120,000 KrisFlyer miles (equivalent to a round-trip business class ticket from Jakarta to Dubai/Hong Kong/Tokyo on Singapore Airlines)."
+              ],
+              "id": [
+                "Dapetin miles lebih banyak setiap transaksi Rp20.000 / 2 Garuda Miles",
+                "Extra diskon 10% setiap hari Rabu di website/App Garuda Indonesia",
+                "Welcome bonus sebesar 35.000 Garuda Miles (setara tiket pergi ke Jepang dengan Garuda Indonesia)",
+                "Jaminan perlindungan asuransi kecelakaan dalam perjalanan dengan santunan hingga maksimum Rp 3 milyar untuk pemegang Kartu Kredit Garuda BNI Visa Signature dan Rp 1 milyar untuk pemegang Kartu Kredit Garuda BNI Visa Platinum."
+              ]
+            }
           },
-          benefitCount: 8,
-          image: "/src/assets/images/credit-card-3.svg",
-          position: 1,
-          cardProfile: {
-            income: "A",
-            promo: ["HIBURAN", "TOKO"],
+          "promo": {
+            "title": "applyCcDetailSceenPromoTitle",
+            "description": {
+              "en": [],
+              "id": []
+            }
           },
-        },
-        {
-          id: "id",
-          binFirstDigit: "binFirstDigit",
-          cardProductName: "Garuda Visa Platinum",
-          cardProductDescription:
-            "Nikmati keuntungan menarik dalam setiap perjalanan.",
-          isRecomend: true,
-          category: "Travel",
-          promo: {
-            title: "applyCcDetailSceenPromoTitle",
-            description: {
-              id: [{}, {}],
-              en: [{}, {}],
-            },
-          },
-          benefit: {
-            title: "applyCcDetailSceenBenefitTitle",
-            description: {
-              id: [{}, {}],
-              en: [{}, {}],
-            },
-          },
-          benefitCount: 8,
-          image: "/src/assets/images/credit-card-3.svg",
-          position: 1,
-          cardProfile: {
-            income: "A",
-            promo: ["HIBURAN", "TOKO"],
-          },
-        },
-        {
-          id: "id",
-          binFirstDigit: "binFirstDigit",
-          cardProductName: "Garuda Visa Platinum",
-          cardProductDescription:
-            "Nikmati keuntungan menarik dalam setiap perjalanan.",
-          isRecomend: true,
-          category: "Travel",
-          promo: {
-            title: "applyCcDetailSceenPromoTitle",
-            description: {
-              id: [{}, {}],
-              en: [{}, {}],
-            },
-          },
-          benefit: {
-            title: "applyCcDetailSceenBenefitTitle",
-            description: {
-              id: [{}, {}],
-              en: [{}, {}],
-            },
-          },
-          benefitCount: 8,
-          image: "/src/assets/images/credit-card-3.svg",
-          position: 1,
-          cardProfile: {
-            income: "A",
-            promo: ["HIBURAN", "TOKO"],
-          },
-        },
-        {
-          id: "id",
-          binFirstDigit: "binFirstDigit",
-          cardProductName: "Garuda Visa Platinum",
-          cardProductDescription:
-            "Nikmati keuntungan menarik dalam setiap perjalanan.",
-          isRecomend: true,
-          category: "Travel",
-          promo: {
-            title: "applyCcDetailSceenPromoTitle",
-            description: {
-              id: [{}, {}],
-              en: [{}, {}],
-            },
-          },
-          benefit: {
-            title: "applyCcDetailSceenBenefitTitle",
-            description: {
-              id: [{}, {}],
-              en: [{}, {}],
-            },
-          },
-          benefitCount: 8,
-          image: "/src/assets/images/credit-card-3.svg",
-          position: 1,
-          cardProfile: {
-            income: "A",
-            promo: ["HIBURAN", "TOKO"],
-          },
-        },
-        {
-          id: "id",
-          binFirstDigit: "binFirstDigit",
-          cardProductName: "Garuda Visa Platinum",
-          cardProductDescription:
-            "Nikmati keuntungan menarik dalam setiap perjalanan.",
-          isRecomend: true,
-          category: "Travel",
-          promo: {
-            title: "applyCcDetailSceenPromoTitle",
-            description: {
-              id: [{}, {}],
-              en: [{}, {}],
-            },
-          },
-          benefit: {
-            title: "applyCcDetailSceenBenefitTitle",
-            description: {
-              id: [{}, {}],
-              en: [{}, {}],
-            },
-          },
-          benefitCount: 8,
-          image: "/src/assets/images/credit-card-3.svg",
-          position: 1,
-          cardProfile: {
-            income: "A",
-            promo: ["HIBURAN", "TOKO"],
-          },
-        },
-        {
-          id: "id",
-          binFirstDigit: "binFirstDigit",
-          cardProductName: "Garuda Visa Platinum",
-          cardProductDescription:
-            "Nikmati keuntungan menarik dalam setiap perjalanan.",
-          isRecomend: true,
-          category: "Travel",
-          promo: {
-            title: "applyCcDetailSceenPromoTitle",
-            description: {
-              id: [{}, {}],
-              en: [{}, {}],
-            },
-          },
-          benefit: {
-            title: "applyCcDetailSceenBenefitTitle",
-            description: {
-              id: [{}, {}],
-              en: [{}, {}],
-            },
-          },
-          benefitCount: 8,
-          image: "/src/assets/images/credit-card-3.svg",
-          position: 1,
-          cardProfile: {
-            income: "A",
-            promo: ["HIBURAN", "TOKO"],
-          },
-        },
-        {
-          id: "id",
-          binFirstDigit: "binFirstDigit",
-          cardProductName: "Garuda Visa Platinum",
-          cardProductDescription:
-            "Nikmati keuntungan menarik dalam setiap perjalanan.",
-          isRecomend: true,
-          category: "Travel",
-          promo: {
-            title: "applyCcDetailSceenPromoTitle",
-            description: {
-              id: [{}, {}],
-              en: [{}, {}],
-            },
-          },
-          benefit: {
-            title: "applyCcDetailSceenBenefitTitle",
-            description: {
-              id: [{}, {}],
-              en: [{}, {}],
-            },
-          },
-          benefitCount: 8,
-          image: "/src/assets/images/credit-card-3.svg",
-          position: 1,
-          cardProfile: {
-            income: "A",
-            promo: ["HIBURAN", "TOKO"],
-          },
-        },
-      ],
-    },
-    data: {
-      page: 1,
-      totalPage: 5,
-      noOfRecord: 10,
-    },
+          "benefitCount": 4,
+          "category": "TRAVEL",
+          "position": 5,
+          "cardProductName": "Batik Air Platinum",
+          "isRecommend": null,
+          "binFirstDigit": "523239",
+          "image": "https://mav-apigw-ext-test2.bni.co.id:48202/asset/v1/image/_kHfO90kGA3bZW_N3vHfU.png"
+        }
+      ]
+    }
   };
 
   if (req.body.dataProtected && req.body.dataProtected.category) {
