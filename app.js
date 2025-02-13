@@ -319,67 +319,67 @@ app.get("/apc/v1/reference", (req, res) => {
 app.get("/reference/v1/lov", (req, res) => {
   if (req.query.category == "apply-cc.personal-data") {
     res.send({
-        data: {
-          education: [
-            {
-              lovKey: "education.level.diploma",
-              lovValue: "Diploma",
-              lovDisplay: "applyccEducationDiploma",
-            },
-            {
-              lovKey: "education.level.bachelor",
-              lovValue: "S1",
-              lovDisplay: "applyccEducationS1",
-            },
-            {
-              lovKey: "education.level.master",
-              lovValue: "S2",
-              lovDisplay: "applyccEducationS2",
-            },
-            {
-              lovKey: "education.level.doctorate",
-              lovValue: "S3",
-              lovDisplay: "applyccEducationS3",
-            },
-            {
-              lovKey: "education.level.others",
-              lovValue: "Others",
-              lovDisplay: "applyccEducationOthers",
-            },
-          ],
-          dependents: [
-            {
-              lovKey: "dependents.count.none",
-              lovValue: "None",
-              lovDisplay: "applyccDependentsNone",
-            },
-            {
-              lovKey: "dependents.count.one",
-              lovValue: "1",
-              lovDisplay: "applyccDependents1",
-            },
-            {
-              lovKey: "dependents.count.two",
-              lovValue: "2",
-              lovDisplay: "applyccDependents2",
-            },
-            {
-              lovKey: "dependents.count.three",
-              lovValue: "3",
-              lovDisplay: "applyccDependents3",
-            },
-            {
-              lovKey: "dependents.count.four",
-              lovValue: "4",
-              lovDisplay: "applyccDependents4",
-            },
-            {
-              lovKey: "dependents.count.more-than-four",
-              lovValue: "More than 4",
-              lovDisplay: "applyccDependentsMoreThan4",
-            },
-          ],
-        }
+      "data": {
+        "lastEducation": [
+          {
+            "lovValue": "D",
+            "lovDisplay": "applyCCDetailPersonalDataScreenLastEducationDiploma",
+            "lovKey": "apply-cc.personal-data.lastEducation.diploma"
+          },
+          {
+            "lovValue": "U",
+            "lovDisplay": "applyCCDetailPersonalDataScreenLastEducationS1",
+            "lovKey": "apply-cc.personal-data.lastEducation.s1"
+          },
+          {
+            "lovValue": "M",
+            "lovDisplay": "applyCCDetailPersonalDataScreenLastEducationS2",
+            "lovKey": "apply-cc.personal-data.lastEducation.s2"
+          },
+          {
+            "lovValue": "M",
+            "lovDisplay": "applyCCDetailPersonalDataScreenLastEducationS3",
+            "lovKey": "apply-cc.personal-data.lastEducation.s3"
+          },
+          {
+            "lovValue": "S",
+            "lovDisplay": "applyCCDetailPersonalDataScreenLastEducationOther",
+            "lovKey": "apply-cc.personal-data.lastEducation.other"
+          }
+        ],
+        "numberDependents": [
+          {
+            "lovValue": "0",
+            "lovDisplay": "applyCCDetailPersonalDataScreenNumberDependents0",
+            "lovKey": "apply-cc.personal-data.numberDependents.0"
+          },
+          {
+            "lovValue": "1",
+            "lovDisplay": "applyCCDetailPersonalDataScreenNumberDependents1",
+            "lovKey": "apply-cc.personal-data.numberDependents.1"
+          },
+          {
+            "lovValue": "2",
+            "lovDisplay": "applyCCDetailPersonalDataScreenNumberDependents2",
+            "lovKey": "apply-cc.personal-data.numberDependents.2"
+          },
+          {
+            "lovValue": "3",
+            "lovDisplay": "applyCCDetailPersonalDataScreenNumberDependents3",
+            "lovKey": "apply-cc.personal-data.numberDependents.3"
+          },
+          {
+            "lovValue": "4",
+            "lovDisplay": "applyCCDetailPersonalDataScreenNumberDependents4",
+            "lovKey": "apply-cc.personal-data.numberDependents.4"
+          },
+          {
+            "lovValue": "5",
+            "lovDisplay": "applyCCDetailPersonalDataScreenNumberDependents5",
+            "lovKey": "apply-cc.personal-data.numberDependents.5"
+          }
+        ]
+      }
     });
   }
   if (req.query.category == "apply-cc.job-data") {
