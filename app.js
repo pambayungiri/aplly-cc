@@ -288,28 +288,28 @@ app.get("/apc/v1/personal-data", (req, res) => {
 });
 
 app.get("/apc/v1/reference", (req, res) => {
-  res.send(        {
+  res.send({
     "dataProtected": {
       "categories": [
         {
-          "image": "https://mav-baseurl.co.id/asset/v1/image/9jcPmyDTYXKx6J4SlS-OX.png",
-          "value": "applyCcCategoryCashbackLockey",
-          "key": "CASHBACK"
-        },
-        {
-          "image": "https://mav-baseurl.co.id/asset/v1/image/9jcPmyDTYXKx6J4SlS-OX.png",
+          "key": "TRAVEL",
           "value": "applyCcCategoryTravelLockey",
-          "key": "TRAVEL"
+          "image": null
         },
         {
-          "image": "https://mav-baseurl.co.id/asset/v1/image/9jcPmyDTYXKx6J4SlS-OX.png",
+          "key": "SHOPPING",
           "value": "applyCcCategoryShoppingLockey",
-          "key": "SHOPPING"
+          "image": null
         },
         {
-          "image": "https://mav-baseurl.co.id/asset/v1/image/9jcPmyDTYXKx6J4SlS-OX.png",
+          "key": "CASHBACK",
+          "value": "applyCcCategoryCashbackLockey",
+          "image": null
+        },
+        {
+          "key": "HEALTH",
           "value": "applyCcCategoryHealthLockey",
-          "key": "HEALTH"
+          "image": null
         }
       ]
     }
