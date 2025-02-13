@@ -25,6 +25,132 @@ app.post("/apc/v1/card-list", (req, res) => {
       "cardList": [
         {
           "id": "Y8DErxapFYL46_aCP8Orz",
+          "cardProductDescription": "Coba Tiga",
+          "cardProfile": {
+            "promo": [
+              "HIBURAN",
+              "TOKO"
+            ],
+            "income": "A"
+          },
+          "benefit": {
+            "title": "applyCcDetailSceenBenefitTitle",
+            "description": {
+              "en": [
+                "Shop easily and securely on e-commerce up to Rp10 million per day.",
+                "Your Mastercard can be used for transactions both domestically and internationally.",
+                "Welcome package of 120,000 KrisFlyer miles (equivalent to a round-trip business class ticket from Jakarta to Dubai/Hong Kong/Tokyo on Singapore Airlines).",
+                "Welcome package of 120,000 KrisFlyer miles (equivalent to a round-trip business class ticket from Jakarta to Dubai/Hong Kong/Tokyo on Singapore Airlines)."
+              ],
+              "id": [
+                "Dapetin miles lebih banyak setiap transaksi Rp20.000 / 2 Garuda Miles",
+                "Extra diskon 10% setiap hari Rabu di website/App Garuda Indonesia",
+                "Welcome bonus sebesar 35.000 Garuda Miles (setara tiket pergi ke Jepang dengan Garuda Indonesia)",
+                "Jaminan perlindungan asuransi kecelakaan dalam perjalanan dengan santunan hingga maksimum Rp 3 milyar untuk pemegang Kartu Kredit Garuda BNI Visa Signature dan Rp 1 milyar untuk pemegang Kartu Kredit Garuda BNI Visa Platinum."
+              ]
+            }
+          },
+          "promo": {
+            "title": "applyCcDetailSceenPromoTitle",
+            "description": {
+              "en": [],
+              "id": []
+            }
+          },
+          "benefitCount": 4,
+          "category": "TRAVEL",
+          "position": 1,
+          "cardProductName": "BNI Mastercard Titanium",
+          "isRecommend": null,
+          "binFirstDigit": "524125",
+          "image": ""
+        },
+        {
+          "id": "Y8DErxapFYL46_aCP8Orz",
+          "cardProductDescription": "Copy dua",
+          "cardProfile": {
+            "promo": [
+              "HIBURAN",
+              "TOKO"
+            ],
+            "income": "A"
+          },
+          "benefit": {
+            "title": "applyCcDetailSceenBenefitTitle",
+            "description": {
+              "en": [
+                "Shop easily and securely on e-commerce up to Rp10 million per day.",
+                "Your Mastercard can be used for transactions both domestically and internationally.",
+                "Welcome package of 120,000 KrisFlyer miles (equivalent to a round-trip business class ticket from Jakarta to Dubai/Hong Kong/Tokyo on Singapore Airlines).",
+                "Welcome package of 120,000 KrisFlyer miles (equivalent to a round-trip business class ticket from Jakarta to Dubai/Hong Kong/Tokyo on Singapore Airlines)."
+              ],
+              "id": [
+                "Dapetin miles lebih banyak setiap transaksi Rp20.000 / 2 Garuda Miles",
+                "Extra diskon 10% setiap hari Rabu di website/App Garuda Indonesia",
+                "Welcome bonus sebesar 35.000 Garuda Miles (setara tiket pergi ke Jepang dengan Garuda Indonesia)",
+                "Jaminan perlindungan asuransi kecelakaan dalam perjalanan dengan santunan hingga maksimum Rp 3 milyar untuk pemegang Kartu Kredit Garuda BNI Visa Signature dan Rp 1 milyar untuk pemegang Kartu Kredit Garuda BNI Visa Platinum."
+              ]
+            }
+          },
+          "promo": {
+            "title": "applyCcDetailSceenPromoTitle",
+            "description": {
+              "en": [],
+              "id": []
+            }
+          },
+          "benefitCount": 4,
+          "category": "TRAVEL",
+          "position": 1,
+          "cardProductName": "BNI Mastercard Titanium",
+          "isRecommend": null,
+          "binFirstDigit": "524125",
+          "image": ""
+        },
+        {
+          "id": "Y8DErxapFYL46_aCP8Orz",
+          "cardProductDescription": "Copy satu",
+          "cardProfile": {
+            "promo": [
+              "HIBURAN",
+              "TOKO"
+            ],
+            "income": "A"
+          },
+          "benefit": {
+            "title": "applyCcDetailSceenBenefitTitle",
+            "description": {
+              "en": [
+                "Shop easily and securely on e-commerce up to Rp10 million per day.",
+                "Your Mastercard can be used for transactions both domestically and internationally.",
+                "Welcome package of 120,000 KrisFlyer miles (equivalent to a round-trip business class ticket from Jakarta to Dubai/Hong Kong/Tokyo on Singapore Airlines).",
+                "Welcome package of 120,000 KrisFlyer miles (equivalent to a round-trip business class ticket from Jakarta to Dubai/Hong Kong/Tokyo on Singapore Airlines)."
+              ],
+              "id": [
+                "Dapetin miles lebih banyak setiap transaksi Rp20.000 / 2 Garuda Miles",
+                "Extra diskon 10% setiap hari Rabu di website/App Garuda Indonesia",
+                "Welcome bonus sebesar 35.000 Garuda Miles (setara tiket pergi ke Jepang dengan Garuda Indonesia)",
+                "Jaminan perlindungan asuransi kecelakaan dalam perjalanan dengan santunan hingga maksimum Rp 3 milyar untuk pemegang Kartu Kredit Garuda BNI Visa Signature dan Rp 1 milyar untuk pemegang Kartu Kredit Garuda BNI Visa Platinum."
+              ]
+            }
+          },
+          "promo": {
+            "title": "applyCcDetailSceenPromoTitle",
+            "description": {
+              "en": [],
+              "id": []
+            }
+          },
+          "benefitCount": 4,
+          "category": "TRAVEL",
+          "position": 1,
+          "cardProductName": "BNI Mastercard Titanium",
+          "isRecommend": null,
+          "binFirstDigit": "524125",
+          "image": ""
+        },
+        {
+          "id": "Y8DErxapFYL46_aCP8Orz",
           "cardProductDescription": "BNI Mastercard Titanium Description",
           "cardProfile": {
             "promo": [
