@@ -1214,6 +1214,18 @@ app.get("/reference/v1/provinces/:provinceCode/cities", (req, res) => {
           "id": "XHeJcerK64W6b10000082",
           "cityName": "JEPARA",
           "provinceCode": "9"
+        },
+        {
+          "cityCode": "904",
+          "id": "XHeJcerK64W6b10000081",
+          "cityName": "GROBOGAN",
+          "provinceCode": "9"
+        },
+        {
+          "cityCode": "911",
+          "id": "XHeJcerK64W6b10000082",
+          "cityName": "JEPARA",
+          "provinceCode": "9"
         }
       ]
     }
