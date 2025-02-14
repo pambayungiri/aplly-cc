@@ -821,40 +821,40 @@ app.get("/reference/v1/lov", (req, res) => {
 
   if (req.query.category == "apply-cc.residence") {
     res.send({
-        data: {
-          statusResidence: [
-            {
-              lovKey: "apply-cc.residence.statusResidence.own",
-              lovValue: "V010|M",
-              lovDisplay: "applyCCResidenceDataScreenOwn",
-            },
-            {
-              lovKey: "apply-cc.residence.statusResidence.family",
-              lovValue: "V010|F",
-              lovDisplay: "applyCCResidenceDataScreenFamily",
-            },
-            {
-              lovKey: "apply-cc.residence.statusResidence.company",
-              lovValue: "V010|C",
-              lovDisplay: "applyCCResidenceDataScreenCompany",
-            },
-            {
-              lovKey: "apply-cc.residence.statusResidence.rent",
-              lovValue: "V010|R",
-              lovDisplay: "applyCCResidenceDataScreenRent",
-            },
-            {
-              lovKey: "apply-cc.residence.statusResidence.boarding",
-              lovValue: "V010|B",
-              lovDisplay: "applyCCResidenceDataScreenBoarding",
-            },
-            {
-              lovKey: "apply-cc.residence.statusResidence.others",
-              lovValue: "V010|O",
-              lovDisplay: "applyCCResidenceDataScreenOthers",
-            },
-          ],
-        },
+      "data": {
+        "statusResidence": [
+          {
+            "lovValue": "V010|M",
+            "lovDisplay": "applyCCResidenceDataScreenOwn",
+            "lovKey": "apply-cc.residence.statusResidence.own"
+          },
+          {
+            "lovValue": "V040|K",
+            "lovDisplay": "applyCCResidenceDataScreenFamily",
+            "lovKey": "apply-cc.residence.statusResidence.family"
+          },
+          {
+            "lovValue": "V060|P",
+            "lovDisplay": "applyCCResidenceDataScreenCompany",
+            "lovKey": "apply-cc.residence.statusResidence.company"
+          },
+          {
+            "lovValue": "V050|S",
+            "lovDisplay": "applyCCResidenceDataScreenRent",
+            "lovKey": "apply-cc.residence.statusResidence.rent"
+          },
+          {
+            "lovValue": "V030|O",
+            "lovDisplay": "applyCCResidenceDataScreenKost",
+            "lovKey": "apply-cc.residence.statusResidence.kost"
+          },
+          {
+            "lovValue": "V090|L",
+            "lovDisplay": "applyCCResidenceDataScreenOther",
+            "lovKey": "apply-cc.residence.statusResidence.other"
+          }
+        ]
+      }
     });
   }
 
