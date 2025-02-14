@@ -860,50 +860,50 @@ app.get("/reference/v1/lov", (req, res) => {
 
   if (req.query.category == "apply-cc.emergency-contact") {
     res.send({
-        data: {
-          familyRelationship: [
-            {
-              lovKey: "inbox-transactional.trx-history.status.success",
-              lovValue: "ortu",
-              lovDisplay: "Orang Tua",
-            },
-            {
-              lovKey: "inbox-transactional.trx-history.status.failed",
-              lovValue: "kakak",
-              lovDisplay: "Kakak.",
-            },
-            {
-              lovKey: "inbox-transactional.trx-history.status.pending",
-              lovValue: "adik",
-              lovDisplay: "Adik",
-            },
-            {
-              lovKey: "inbox-transactional.trx-history.status.pending",
-              lovValue: "suami/istri",
-              lovDisplay: "Suami/Istri",
-            },
-            {
-              lovKey: "inbox-transactional.trx-history.status.pending",
-              lovValue: "kake/nenek",
-              lovDisplay: "Kakek/Nenek",
-            },
-            {
-              lovKey: "inbox-transactional.trx-history.status.pending",
-              lovValue: "mertua",
-              lovDisplay: "Mertua",
-            },
-            {
-              lovKey: "inbox-transactional.trx-history.status.pending",
-              lovValue: "anak",
-              lovDisplay: "Anak",
-            },
-            {
-              lovKey: "inbox-transactional.trx-history.status.pending",
-              lovValue: "lainnya",
-              lovDisplay: "Lainnya",
-            },
-          ],
-        },
+      "data": {
+        "familyRelationship": [
+          {
+            "lovKey": "apply-cc.emergency-contact.familyRelationship.parent",
+            "lovValue": "1",
+            "lovDisplay": "applyCCEmergencyContactScreenFamilyRelationshipParent"
+          },
+          {
+            "lovKey": "apply-cc.emergency-contact.familyRelationship.olderBrotherSister",
+            "lovValue": "2",
+            "lovDisplay": "applyCCEmergencyContactScreenFamilyRelationshipOlderBrotherSister"
+          },
+          {
+            "lovKey": "apply-cc.emergency-contact.familyRelationship.youngerBrotherSister",
+            "lovValue": "3",
+            "lovDisplay": "applyCCEmergencyContactScreenFamilyRelationshipYoungerBrotherSister"
+          },
+          {
+            "lovKey": "apply-cc.emergency-contact.familyRelationship.husbandWife",
+            "lovValue": "5",
+            "lovDisplay": "applyCCEmergencyContactScreenFamilyRelationshipHusbandWife"
+          },
+          {
+            "lovKey": "apply-cc.emergency-contact.familyRelationship.grandparents",
+            "lovValue": "6",
+            "lovDisplay": "applyCCEmergencyContactScreenFamilyRelationshipGrandparents"
+          },
+          {
+            "lovKey": "apply-cc.emergency-contact.familyRelationship.parentsInLaw",
+            "lovValue": "7",
+            "lovDisplay": "applyCCEmergencyContactScreenFamilyRelationshipParentsInLaw"
+          },
+          {
+            "lovKey": "apply-cc.emergency-contact.familyRelationship.child",
+            "lovValue": "10",
+            "lovDisplay": "applyCCEmergencyContactScreenFamilyRelationshipChild"
+          },
+          {
+            "lovKey": "apply-cc.emergency-contact.familyRelationship.other",
+            "lovValue": "9",
+            "lovDisplay": "applyCCEmergencyContactScreenFamilyRelationshipOther"
+          }
+        ]
+      }
     });
   }
 
