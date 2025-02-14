@@ -996,180 +996,180 @@ app.get("/content/v1/tnc", (req, res) => {
 
 app.get("/reference/v1/provinces", (req, res) => {
   res.send({
-      data: {
-        province: [
-          {
-            id: "a1b2c3d4",
-            provinceCode: "1",
-            provinceName: "Aceh",
-          },
-          {
-            id: "e5f6g7h8",
-            provinceCode: "2",
-            provinceName: "Sumatera Utara",
-          },
-          {
-            id: "i9j0k1l2",
-            provinceCode: "3",
-            provinceName: "Sumatera Barat",
-          },
-          {
-            id: "m3n4o5p6",
-            provinceCode: "4",
-            provinceName: "Riau",
-          },
-          {
-            id: "q7r8s9t0",
-            provinceCode: "5",
-            provinceName: "Kepulauan Riau",
-          },
-          {
-            id: "u1v2w3x4",
-            provinceCode: "6",
-            provinceName: "Jambi",
-          },
-          {
-            id: "y5z6a7b8",
-            provinceCode: "7",
-            provinceName: "Sumatera Selatan",
-          },
-          {
-            id: "c9d0e1f2",
-            provinceCode: "8",
-            provinceName: "Bangka Belitung",
-          },
-          {
-            id: "g3h4i5j6",
-            provinceCode: "9",
-            provinceName: "Bengkulu",
-          },
-          {
-            id: "k7l8m9n0",
-            provinceCode: "10",
-            provinceName: "Lampung",
-          },
-          {
-            id: "o1p2q3r4",
-            provinceCode: "11",
-            provinceName: "DKI Jakarta",
-          },
-          {
-            id: "s5t6u7v8",
-            provinceCode: "12",
-            provinceName: "Jawa Barat",
-          },
-          {
-            id: "w9x0y1z2",
-            provinceCode: "13",
-            provinceName: "Jawa Tengah",
-          },
-          {
-            id: "a3b4c5d6",
-            provinceCode: "14",
-            provinceName: "DI Yogyakarta",
-          },
-          {
-            id: "e7f8g9h0",
-            provinceCode: "15",
-            provinceName: "Jawa Timur",
-          },
-          {
-            id: "i1j2k3l4",
-            provinceCode: "16",
-            provinceName: "Banten",
-          },
-          {
-            id: "m5n6o7p8",
-            provinceCode: "17",
-            provinceName: "Bali",
-          },
-          {
-            id: "q9r0s1t2",
-            provinceCode: "18",
-            provinceName: "Nusa Tenggara Barat",
-          },
-          {
-            id: "u3v4w5x6",
-            provinceCode: "19",
-            provinceName: "Nusa Tenggara Timur",
-          },
-          {
-            id: "y7z8a9b0",
-            provinceCode: "20",
-            provinceName: "Kalimantan Barat",
-          },
-          {
-            id: "c1d2e3f4",
-            provinceCode: "21",
-            provinceName: "Kalimantan Tengah",
-          },
-          {
-            id: "g5h6i7j8",
-            provinceCode: "22",
-            provinceName: "Kalimantan Selatan",
-          },
-          {
-            id: "k9l0m1n2",
-            provinceCode: "23",
-            provinceName: "Kalimantan Timur",
-          },
-          {
-            id: "o3p4q5r6",
-            provinceCode: "24",
-            provinceName: "Kalimantan Utara",
-          },
-          {
-            id: "s7t8u9v0",
-            provinceCode: "25",
-            provinceName: "Sulawesi Utara",
-          },
-          {
-            id: "w1x2y3z4",
-            provinceCode: "26",
-            provinceName: "Sulawesi Tengah",
-          },
-          {
-            id: "a5b6c7d8",
-            provinceCode: "27",
-            provinceName: "Sulawesi Selatan",
-          },
-          {
-            id: "e9f0g1h2",
-            provinceCode: "28",
-            provinceName: "Sulawesi Tenggara",
-          },
-          {
-            id: "i3j4k5l6",
-            provinceCode: "29",
-            provinceName: "Gorontalo",
-          },
-          {
-            id: "m7n8o9p0",
-            provinceCode: "30",
-            provinceName: "Sulawesi Barat",
-          },
-          {
-            id: "q1r2s3t4",
-            provinceCode: "31",
-            provinceName: "Maluku",
-          },
-          {
-            id: "u5v6w7x8",
-            provinceCode: "32",
-            provinceName: "Maluku Utara",
-          },
-          {
-            id: "y9z0a1b2",
-            provinceCode: "33",
-            provinceName: "Papua",
-          },
-          {
-            id: "c3d4e5f6",
-            provinceCode: "34",
-            provinceName: "Papua Barat",
-          },
-        ],
-      }
+    "data": {
+      "province": [
+        {
+          "id": "Gh2h2tKkRe1WB10000000",
+          "provinceName": "BALI",
+          "provinceCode": "72"
+        },
+        {
+          "id": "Gh2h2tKkRe1WB10000001",
+          "provinceName": "BANTEN",
+          "provinceCode": "2"
+        },
+        {
+          "id": "Gh2h2tKkRe1WB10000002",
+          "provinceName": "BENGKULU",
+          "provinceCode": "23"
+        },
+        {
+          "id": "Gh2h2tKkRe1WB10000003",
+          "provinceName": "DAERAH ISTIMEWA YOGYAKARTA",
+          "provinceCode": "5"
+        },
+        {
+          "id": "Gh2h2tKkRe1WB10000004",
+          "provinceName": "DKI JAKARTA",
+          "provinceCode": "3"
+        },
+        {
+          "id": "Gh2h2tKkRe1WB10000005",
+          "provinceName": "GORONTALO",
+          "provinceCode": "63"
+        },
+        {
+          "id": "Gh2h2tKkRe1WB10000006",
+          "provinceName": "JAMBI",
+          "provinceCode": "31"
+        },
+        {
+          "id": "Gh2h2tKkRe1WB10000007",
+          "provinceName": "JAWA BARAT",
+          "provinceCode": "1"
+        },
+        {
+          "id": "Gh2h2tKkRe1WB10000008",
+          "provinceName": "JAWA TENGAH",
+          "provinceCode": "9"
+        },
+        {
+          "id": "Gh2h2tKkRe1WB10000009",
+          "provinceName": "JAWA TIMUR",
+          "provinceCode": "12"
+        },
+        {
+          "id": "Gh2h2tKkRe1WB10000010",
+          "provinceName": "KALIMANTAN BARAT",
+          "provinceCode": "53"
+        },
+        {
+          "id": "Gh2h2tKkRe1WB10000011",
+          "provinceName": "KALIMANTAN SELATAN",
+          "provinceCode": "51"
+        },
+        {
+          "id": "Gh2h2tKkRe1WB10000012",
+          "provinceName": "KALIMANTAN TENGAH",
+          "provinceCode": "58"
+        },
+        {
+          "id": "Gh2h2tKkRe1WB10000013",
+          "provinceName": "KALIMANTAN TIMUR",
+          "provinceCode": "54"
+        },
+        {
+          "id": "Gh2h2tKkRe1WB10000014",
+          "provinceName": "KALIMANTAN UTARA",
+          "provinceCode": "55"
+        },
+        {
+          "id": "Gh2h2tKkRe1WB10000015",
+          "provinceName": "KEPULAUAN BANGKA BELITUNG",
+          "provinceCode": "37"
+        },
+        {
+          "id": "Gh2h2tKkRe1WB10000016",
+          "provinceName": "KEPULAUAN RIAU",
+          "provinceCode": "38"
+        },
+        {
+          "id": "Gh2h2tKkRe1WB10000017",
+          "provinceName": "LAMPUNG",
+          "provinceCode": "39"
+        },
+        {
+          "id": "Gh2h2tKkRe1WB10000018",
+          "provinceName": "MALUKU",
+          "provinceCode": "81"
+        },
+        {
+          "id": "Gh2h2tKkRe1WB10000019",
+          "provinceName": "MALUKU UTARA",
+          "provinceCode": "83"
+        },
+        {
+          "id": "Gh2h2tKkRe1WB10000020",
+          "provinceName": "NANGGROE ACEH DARUSSALAM (NAD)",
+          "provinceCode": "32"
+        },
+        {
+          "id": "Gh2h2tKkRe1WB10000021",
+          "provinceName": "NUSA TENGGARA BARAT",
+          "provinceCode": "71"
+        },
+        {
+          "id": "Gh2h2tKkRe1WB10000022",
+          "provinceName": "NUSA TENGGARA TIMUR",
+          "provinceCode": "74"
+        },
+        {
+          "id": "Gh2h2tKkRe1WB10000023",
+          "provinceName": "PAPUA",
+          "provinceCode": "82"
+        },
+        {
+          "id": "Gh2h2tKkRe1WB10000024",
+          "provinceName": "PAPUA BARAT",
+          "provinceCode": "84"
+        },
+        {
+          "id": "Gh2h2tKkRe1WB10000025",
+          "provinceName": "RIAU",
+          "provinceCode": "35"
+        },
+        {
+          "id": "Gh2h2tKkRe1WB10000026",
+          "provinceName": "SULAWESI BARAT",
+          "provinceCode": "64"
+        },
+        {
+          "id": "Gh2h2tKkRe1WB10000027",
+          "provinceName": "SULAWESI SELATAN",
+          "provinceCode": "61"
+        },
+        {
+          "id": "Gh2h2tKkRe1WB10000028",
+          "provinceName": "SULAWESI TENGAH",
+          "provinceCode": "60"
+        },
+        {
+          "id": "Gh2h2tKkRe1WB10000029",
+          "provinceName": "SULAWESI TENGGARA",
+          "provinceCode": "69"
+        },
+        {
+          "id": "Gh2h2tKkRe1WB10000030",
+          "provinceName": "SULAWESI UTARA",
+          "provinceCode": "62"
+        },
+        {
+          "id": "Gh2h2tKkRe1WB10000031",
+          "provinceName": "SUMATERA BARAT",
+          "provinceCode": "34"
+        },
+        {
+          "id": "Gh2h2tKkRe1WB10000032",
+          "provinceName": "SUMATERA SELATAN",
+          "provinceCode": "36"
+        },
+        {
+          "id": "Gh2h2tKkRe1WB10000033",
+          "provinceName": "SUMATERA UTARA",
+          "provinceCode": "33"
+        }
+      ]
+    }
   });
 });
 
@@ -1177,142 +1177,220 @@ app.get("/reference/v1/provinces/:provinceCode/cities", (req, res) => {
   console.log(req.params);
 
   res.send({
-      data: {
-        city: [
-          {
-            id: "1a2b3c4d",
-            cityCode: "1",
-            provinceCode: "1",
-            cityName: "Banda Aceh",
-          },
-          {
-            id: "2e3f4g5h",
-            cityCode: "2",
-            provinceCode: "1",
-            cityName: "Sabang",
-          },
-          {
-            id: "3i4j5k6l",
-            cityCode: "3",
-            provinceCode: "1",
-            cityName: "Langsa",
-          },
-          {
-            id: "4m5n6o7p",
-            cityCode: "4",
-            provinceCode: "1",
-            cityName: "Lhokseumawe",
-          },
-          {
-            id: "5q6r7s8t",
-            cityCode: "5",
-            provinceCode: "1",
-            cityName: "Subulussalam",
-          },
-          {
-            id: "6u7v8w9x",
-            cityCode: "6",
-            provinceCode: "1",
-            cityName: "Aceh Besar",
-          },
-          {
-            id: "7y8z9a0b",
-            cityCode: "7",
-            provinceCode: "1",
-            cityName: "Aceh Jaya",
-          },
-          {
-            id: "8c9d0e1f",
-            cityCode: "8",
-            provinceCode: "1",
-            cityName: "Aceh Selatan",
-          },
-          {
-            id: "9g0h1i2j",
-            cityCode: "9",
-            provinceCode: "1",
-            cityName: "Aceh Singkil",
-          },
-          {
-            id: "0k1l2m3n",
-            cityCode: "10",
-            provinceCode: "1",
-            cityName: "Aceh Tamiang",
-          },
-          {
-            id: "1o2p3q4r",
-            cityCode: "11",
-            provinceCode: "1",
-            cityName: "Aceh Tengah",
-          },
-          {
-            id: "2s3t4u5v",
-            cityCode: "12",
-            provinceCode: "1",
-            cityName: "Aceh Tenggara",
-          },
-          {
-            id: "3w4x5y6z",
-            cityCode: "13",
-            provinceCode: "1",
-            cityName: "Aceh Timur",
-          },
-          {
-            id: "4a5b6c7d",
-            cityCode: "14",
-            provinceCode: "1",
-            cityName: "Aceh Utara",
-          },
-          {
-            id: "5e6f7g8h",
-            cityCode: "15",
-            provinceCode: "1",
-            cityName: "Bener Meriah",
-          },
-          {
-            id: "6i7j8k9l",
-            cityCode: "16",
-            provinceCode: "1",
-            cityName: "Bireuen",
-          },
-          {
-            id: "7m8n9o0p",
-            cityCode: "17",
-            provinceCode: "1",
-            cityName: "Gayo Lues",
-          },
-          {
-            id: "8q9r0s1t",
-            cityCode: "18",
-            provinceCode: "1",
-            cityName: "Nagan Raya",
-          },
-          {
-            id: "9u0v1w2x",
-            cityCode: "19",
-            provinceCode: "1",
-            cityName: "Pidie",
-          },
-          {
-            id: "0y1z2a3b",
-            cityCode: "20",
-            provinceCode: "1",
-            cityName: "Pidie Jaya",
-          },
-          {
-            id: "1c2d3e4f",
-            cityCode: "21",
-            provinceCode: "1",
-            cityName: "Simeulue",
-          },
-          {
-            id: "2g3h4i5j",
-            cityCode: "22",
-            provinceCode: "1",
-            cityName: "West Aceh",
-          },
-        ],
-      }
+    "data": {
+      "city": [
+        {
+          "cityCode": "924",
+          "id": "XHeJcerK64W6b10000077",
+          "cityName": "BOYOLALI",
+          "provinceCode": "9"
+        },
+        {
+          "cityCode": "907",
+          "id": "XHeJcerK64W6b10000078",
+          "cityName": "BREBES",
+          "provinceCode": "9"
+        },
+        {
+          "cityCode": "915",
+          "id": "XHeJcerK64W6b10000079",
+          "cityName": "CILACAP",
+          "provinceCode": "9"
+        },
+        {
+          "cityCode": "903",
+          "id": "XHeJcerK64W6b10000080",
+          "cityName": "DEMAK",
+          "provinceCode": "9"
+        },
+        {
+          "cityCode": "904",
+          "id": "XHeJcerK64W6b10000081",
+          "cityName": "GROBOGAN",
+          "provinceCode": "9"
+        },
+        {
+          "cityCode": "911",
+          "id": "XHeJcerK64W6b10000082",
+          "cityName": "JEPARA",
+          "provinceCode": "9"
+        },
+        {
+          "cityCode": "927",
+          "id": "XHeJcerK64W6b10000083",
+          "cityName": "KARANGANYAR",
+          "provinceCode": "9"
+        },
+        {
+          "cityCode": "922",
+          "id": "XHeJcerK64W6b10000084",
+          "cityName": "KEBUMEN",
+          "provinceCode": "9"
+        },
+        {
+          "cityCode": "902",
+          "id": "XHeJcerK64W6b10000085",
+          "cityName": "KENDAL",
+          "provinceCode": "9"
+        },
+        {
+          "cityCode": "923",
+          "id": "XHeJcerK64W6b10000086",
+          "cityName": "KLATEN",
+          "provinceCode": "9"
+        },
+        {
+          "cityCode": "909",
+          "id": "XHeJcerK64W6b10000087",
+          "cityName": "KUDUS",
+          "provinceCode": "9"
+        },
+        {
+          "cityCode": "918",
+          "id": "XHeJcerK64W6b10000088",
+          "cityName": "KAB. MAGELANG",
+          "provinceCode": "9"
+        },
+        {
+          "cityCode": "908",
+          "id": "XHeJcerK64W6b10000089",
+          "cityName": "PATI",
+          "provinceCode": "9"
+        },
+        {
+          "cityCode": "905",
+          "id": "XHeJcerK64W6b10000090",
+          "cityName": "KAB. PEKALONGAN",
+          "provinceCode": "9"
+        },
+        {
+          "cityCode": "910",
+          "id": "XHeJcerK64W6b10000091",
+          "cityName": "PEMALANG",
+          "provinceCode": "9"
+        },
+        {
+          "cityCode": "916",
+          "id": "XHeJcerK64W6b10000092",
+          "cityName": "PURBALINGGA",
+          "provinceCode": "9"
+        },
+        {
+          "cityCode": "921",
+          "id": "XHeJcerK64W6b10000093",
+          "cityName": "PURWOREJO",
+          "provinceCode": "9"
+        },
+        {
+          "cityCode": "912",
+          "id": "XHeJcerK64W6b10000094",
+          "cityName": "REMBANG",
+          "provinceCode": "9"
+        },
+        {
+          "cityCode": "992",
+          "id": "XHeJcerK64W6b10000095",
+          "cityName": "SALATIGA",
+          "provinceCode": "9"
+        },
+        {
+          "cityCode": "991",
+          "id": "XHeJcerK64W6b10000096",
+          "cityName": "KOTA SEMARANG",
+          "provinceCode": "9"
+        },
+        {
+          "cityCode": "925",
+          "id": "XHeJcerK64W6b10000097",
+          "cityName": "SRAGEN",
+          "provinceCode": "9"
+        },
+        {
+          "cityCode": "926",
+          "id": "XHeJcerK64W6b10000098",
+          "cityName": "SUKOHARJO",
+          "provinceCode": "9"
+        },
+        {
+          "cityCode": "996",
+          "id": "XHeJcerK64W6b10000099",
+          "cityName": "SURAKARTA (SOLO)",
+          "provinceCode": "9"
+        },
+        {
+          "cityCode": "994",
+          "id": "XHeJcerK64W6b10000100",
+          "cityName": "KOTA TEGAL",
+          "provinceCode": "9"
+        },
+        {
+          "cityCode": "919",
+          "id": "XHeJcerK64W6b10000101",
+          "cityName": "TEMANGGUNG",
+          "provinceCode": "9"
+        },
+        {
+          "cityCode": "928",
+          "id": "XHeJcerK64W6b10000102",
+          "cityName": "WONOGIRI",
+          "provinceCode": "9"
+        },
+        {
+          "cityCode": "920",
+          "id": "XHeJcerK64W6b10000103",
+          "cityName": "WONOSOBO",
+          "provinceCode": "9"
+        },
+        {
+          "cityCode": "917",
+          "id": "XHeJcerK64W6b10000073",
+          "cityName": "BANJARNEGARA",
+          "provinceCode": "9"
+        },
+        {
+          "cityCode": "914",
+          "id": "XHeJcerK64W6b10000074",
+          "cityName": "BANYUMAS",
+          "provinceCode": "9"
+        },
+        {
+          "cityCode": "929",
+          "id": "XHeJcerK64W6b10000075",
+          "cityName": "BATANG",
+          "provinceCode": "9"
+        },
+        {
+          "cityCode": "913",
+          "id": "XHeJcerK64W6b10000076",
+          "cityName": "BLORA",
+          "provinceCode": "9"
+        },
+        {
+          "cityCode": "995",
+          "id": "F1oNPCiHWRgUQJ-Jg2jeV",
+          "cityName": "KOTA MAGELANG",
+          "provinceCode": "9"
+        },
+        {
+          "cityCode": "901",
+          "id": "2r2vFBb8BHs32ienBo0L5",
+          "cityName": "KAB. SEMARANG",
+          "provinceCode": "9"
+        },
+        {
+          "cityCode": "906",
+          "id": "u_snFMmEpbDjmNx_mJGAx",
+          "cityName": "KAB. TEGAL",
+          "provinceCode": "9"
+        },
+        {
+          "cityCode": "993",
+          "id": "OeTZK3yS3H3wVhijFfRno",
+          "cityName": "KOTA PEKALONGAN",
+          "provinceCode": "9"
+        }
+      ]
+    }
   });
 });
 
@@ -1320,40 +1398,124 @@ app.get("/reference/v1/cities/:cityCode/districts", (req, res) => {
   console.log(req.params);
 
   res.send({
-      data: {
-        district: [
-          {
-            id: "Aa1Bb2Cc3Dd4",
-            districtCode: "101",
-            cityCode: "1",
-            districtName: "Kuta Alam",
-          },
-          {
-            id: "Ee5Ff6Gg7Hh8",
-            districtCode: "102",
-            cityCode: "1",
-            districtName: "Baiturrahman",
-          },
-          {
-            id: "Ii9Jj10Kk11Ll12",
-            districtCode: "103",
-            cityCode: "1",
-            districtName: "Syiah Kuala",
-          },
-          {
-            id: "Mm13Nn14Oo15Pp16",
-            districtCode: "104",
-            cityCode: "1",
-            districtName: "Meuraxa",
-          },
-          {
-            id: "Qq17Rr18Ss19Tt20",
-            districtCode: "105",
-            cityCode: "1",
-            districtName: "Ulee Kareng",
-          },
-        ],
-      }
+    "data": {
+      "district": [
+        {
+          "districtName": "AMPEL",
+          "cityCode": "924",
+          "id": "O3BmtjE34gDLq10001327",
+          "districtCode": "UKwaiAEWvUHyC10001327"
+        },
+        {
+          "districtName": "ANDONG",
+          "cityCode": "924",
+          "id": "O3BmtjE34gDLq10001328",
+          "districtCode": "UKwaiAEWvUHyC10001328"
+        },
+        {
+          "districtName": "BANYUDONO",
+          "cityCode": "924",
+          "id": "O3BmtjE34gDLq10001329",
+          "districtCode": "UKwaiAEWvUHyC10001329"
+        },
+        {
+          "districtName": "BOYOLALI",
+          "cityCode": "924",
+          "id": "O3BmtjE34gDLq10001330",
+          "districtCode": "UKwaiAEWvUHyC10001330"
+        },
+        {
+          "districtName": "CEPOGO",
+          "cityCode": "924",
+          "id": "O3BmtjE34gDLq10001331",
+          "districtCode": "UKwaiAEWvUHyC10001331"
+        },
+        {
+          "districtName": "JUWANGI",
+          "cityCode": "924",
+          "id": "O3BmtjE34gDLq10001332",
+          "districtCode": "UKwaiAEWvUHyC10001332"
+        },
+        {
+          "districtName": "KARANGGEDE",
+          "cityCode": "924",
+          "id": "O3BmtjE34gDLq10001333",
+          "districtCode": "UKwaiAEWvUHyC10001333"
+        },
+        {
+          "districtName": "KEMUSU",
+          "cityCode": "924",
+          "id": "O3BmtjE34gDLq10001334",
+          "districtCode": "UKwaiAEWvUHyC10001334"
+        },
+        {
+          "districtName": "KLEGO",
+          "cityCode": "924",
+          "id": "O3BmtjE34gDLq10001335",
+          "districtCode": "UKwaiAEWvUHyC10001335"
+        },
+        {
+          "districtName": "MOJOSONGO",
+          "cityCode": "924",
+          "id": "O3BmtjE34gDLq10001336",
+          "districtCode": "UKwaiAEWvUHyC10001336"
+        },
+        {
+          "districtName": "MUSUK",
+          "cityCode": "924",
+          "id": "O3BmtjE34gDLq10001337",
+          "districtCode": "UKwaiAEWvUHyC10001337"
+        },
+        {
+          "districtName": "NGEMPLAK",
+          "cityCode": "924",
+          "id": "O3BmtjE34gDLq10001338",
+          "districtCode": "UKwaiAEWvUHyC10001338"
+        },
+        {
+          "districtName": "NOGOSARI",
+          "cityCode": "924",
+          "id": "O3BmtjE34gDLq10001339",
+          "districtCode": "UKwaiAEWvUHyC10001339"
+        },
+        {
+          "districtName": "SAMBI",
+          "cityCode": "924",
+          "id": "O3BmtjE34gDLq10001340",
+          "districtCode": "UKwaiAEWvUHyC10001340"
+        },
+        {
+          "districtName": "SAWIT",
+          "cityCode": "924",
+          "id": "O3BmtjE34gDLq10001341",
+          "districtCode": "UKwaiAEWvUHyC10001341"
+        },
+        {
+          "districtName": "SELO",
+          "cityCode": "924",
+          "id": "O3BmtjE34gDLq10001342",
+          "districtCode": "UKwaiAEWvUHyC10001342"
+        },
+        {
+          "districtName": "SIMO",
+          "cityCode": "924",
+          "id": "O3BmtjE34gDLq10001343",
+          "districtCode": "UKwaiAEWvUHyC10001343"
+        },
+        {
+          "districtName": "TERAS",
+          "cityCode": "924",
+          "id": "O3BmtjE34gDLq10001344",
+          "districtCode": "UKwaiAEWvUHyC10001344"
+        },
+        {
+          "districtName": "WONOSEGORO",
+          "cityCode": "924",
+          "id": "O3BmtjE34gDLq10001345",
+          "districtCode": "UKwaiAEWvUHyC10001345"
+        }
+      ]
+    }
   });
 });
 
@@ -1361,38 +1523,73 @@ app.get("/reference/v1/districts/:districtCode/sub-districts", (req, res) => {
   console.log(req.params);
 
   res.send({
-      data: {
-        subDistrict: [
-          {
-            id: "SubAa1Bb2Cc3Dd4",
-            subDistrictCode: "10101",
-            districtCode: "101",
-            subDistrictName: "Lampriet",
-            postalCode: ["12345", "12346", "12347"],
-          },
-          {
-            id: "SubEe5Ff6Gg7Hh8",
-            subDistrictCode: "10102",
-            districtCode: "101",
-            subDistrictName: "Peunayong",
-            postalCode: ["12348", "12349"],
-          },
-          {
-            id: "SubIi9Jj10Kk11Ll12",
-            subDistrictCode: "10103",
-            districtCode: "101",
-            subDistrictName: "Bandar Baru",
-            postalCode: ["12350", "12351", "12352"],
-          },
-          {
-            id: "SubMm13Nn14Oo15Pp16",
-            subDistrictCode: "10104",
-            districtCode: "101",
-            subDistrictName: "Beurawe",
-            postalCode: ["12353"],
-          },
-        ],
-      },
+    "data": {
+      "subDistrict": [
+        {
+          "id": "NhvAFiueBm6Do10013479",
+          "subDistrictCode": "clrBHuBX12AGR10013479",
+          "districtCode": "UKwaiAEWvUHyC10001330",
+          "subDistrictName": "BANARAN",
+          "postalCode": "57313"
+        },
+        {
+          "id": "NhvAFiueBm6Do10013480",
+          "subDistrictCode": "clrBHuBX12AGR10013480",
+          "districtCode": "UKwaiAEWvUHyC10001330",
+          "subDistrictName": "KARANGGENENG",
+          "postalCode": "57312"
+        },
+        {
+          "id": "NhvAFiueBm6Do10013481",
+          "subDistrictCode": "clrBHuBX12AGR10013481",
+          "districtCode": "UKwaiAEWvUHyC10001330",
+          "subDistrictName": "KEBONBIMO",
+          "postalCode": "57316"
+        },
+        {
+          "id": "NhvAFiueBm6Do10013482",
+          "subDistrictCode": "clrBHuBX12AGR10013482",
+          "districtCode": "UKwaiAEWvUHyC10001330",
+          "subDistrictName": "KIRINGAN",
+          "postalCode": "57314"
+        },
+        {
+          "id": "NhvAFiueBm6Do10013483",
+          "subDistrictCode": "clrBHuBX12AGR10013483",
+          "districtCode": "UKwaiAEWvUHyC10001330",
+          "subDistrictName": "MUDAL",
+          "postalCode": "57316"
+        },
+        {
+          "id": "NhvAFiueBm6Do10013484",
+          "subDistrictCode": "clrBHuBX12AGR10013484",
+          "districtCode": "UKwaiAEWvUHyC10001330",
+          "subDistrictName": "PENGGUNG",
+          "postalCode": "57316"
+        },
+        {
+          "id": "NhvAFiueBm6Do10013485",
+          "subDistrictCode": "clrBHuBX12AGR10013485",
+          "districtCode": "UKwaiAEWvUHyC10001330",
+          "subDistrictName": "PULISEN",
+          "postalCode": "57316"
+        },
+        {
+          "id": "NhvAFiueBm6Do10013486",
+          "subDistrictCode": "clrBHuBX12AGR10013486",
+          "districtCode": "UKwaiAEWvUHyC10001330",
+          "subDistrictName": "SISWODIPURAN",
+          "postalCode": "57311"
+        },
+        {
+          "id": "NhvAFiueBm6Do10013487",
+          "subDistrictCode": "clrBHuBX12AGR10013487",
+          "districtCode": "UKwaiAEWvUHyC10001330",
+          "subDistrictName": "WINONG",
+          "postalCode": "57315"
+        }
+      ]
+    }
   });
 });
 
