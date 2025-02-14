@@ -392,24 +392,27 @@ app.post("/apc/v1/upsert-document", (req, res) => {
 
   console.log(req.body);
   
-  res.json({ dataProtected: {
-    id : "hahahahah"
-  }});
+  res.json({
+    "dataProtected": {
+      "id": "W85eSpyKL1owGGFVYz-cu"
+    }
+  });
 });
 
 app.get("/apc/v1/personal-data", (req, res) => {
   res.json({
-      dataProtected: {
-        jobStatus: "PROFESIONAL", //PROFESIONAL, PENGUSAHA, TIDAK BEKERJA, PENSIUN,
-        address: "JL. SETIABUDI",
-        rt: "35",
-        rw: "35",
-        buildingName: "Perumahan Bagus",
-        district: "Setia Budi",
-        subdistrict: "Setia Budi",
-        city: "BATU",
-        postalCode: "12910",
-      },
+    "dataProtected": {
+      "postalCode": "11730",
+      "district": "CENGKARENG",
+      "jobStatus": "PROFESIONAL",
+      "address": "QQ123",
+      "buildingName": "",
+      "subdistrict": "CENGKARENG BARAT",
+      "province": "DKI JAKARTA",
+      "city": "JAKARTA BARAT",
+      "rw": "",
+      "rt": "11"
+    }
   });
 });
 
@@ -511,238 +514,305 @@ app.get("/reference/v1/lov", (req, res) => {
   if (req.query.category == "apply-cc.job-data") {
     res.send({
       "data": {
-        "typeCompany": [
-          {
-            "lovValue": "B",
-            "lovDisplay": "applyCCJobDataScreenTypeCompanyBumn",
-            "lovKey": "bumn1"
-          },
-          {
-            "lovValue": "P",
-            "lovDisplay": "applyCCJobDataScreenTypeCompanyGovernmentAgencies",
-            "lovKey": "ip1"
-          },
-          {
-            "lovValue": "S",
-            "lovDisplay": "applyCCJobDataScreenTypeCompanyPrivate",
-            "lovKey": "swa1"
-          },
-          {
-            "lovValue": "N",
-            "lovDisplay": "applyCCJobDataScreenTypeCompanyNationalPrivate",
-            "lovKey": "swan1"
-          },
-          {
-            "lovValue": "M",
-            "lovDisplay": "applyCCJobDataScreenTypeCompanyMultinational",
-            "lovKey": "mult1"
-          },
-          {
-            "lovValue": "L",
-            "lovDisplay": "applyCCJobDataScreenTypeCompanyOther",
-            "lovKey": "oth1"
-          }
-        ],
-        "businessFields": [
-          {
-            "lovValue": "Pertanian, Perkebunan, Peternakan",
-            "lovDisplay": "applyCCJobDataScreenBusinessFieldsFarming",
-            "lovKey": "applyCCJobDataScreenBusinessFieldsFarming1"
-          },
-          {
-            "lovValue": "Pertambangan",
-            "lovDisplay": "applyCCJobDataScreenBusinessFieldsMining",
-            "lovKey": "applyCCJobDataScreenBusinessFieldsMining1"
-          },
-          {
-            "lovValue": "Industri, Pabrik, Home Industry, Percetakan",
-            "lovDisplay": "applyCCJobDataScreenBusinessFieldsIndustry",
-            "lovKey": "applyCCJobDataScreenBusinessFieldsIndustry1"
-          },
-          {
-            "lovValue": "Minyak, Gas, Air, Listrik",
-            "lovDisplay": "applyCCJobDataScreenBusinessFieldsOil",
-            "lovKey": "applyCCJobDataScreenBusinessFieldsOil1"
-          },
-          {
-            "lovValue": "Properti, Kontraktor",
-            "lovDisplay": "applyCCJobDataScreenBusinessFieldsProperty",
-            "lovKey": "applyCCJobDataScreenBusinessFieldsProperti1"
-          },
-          {
-            "lovValue": "Perdagangan, Export-Import, Hotel, Restaurant",
-            "lovDisplay": "applyCCJobDataScreenBusinessFieldsTrading",
-            "lovKey": "applyCCJobDataScreenBusinessFieldsTrading1"
-          },
-          {
-            "lovValue": "Angkutan, Informasi, Telekomunikasi",
-            "lovDisplay": "applyCCJobDataScreenBusinessFieldsTransport",
-            "lovKey": "applyCCJobDataScreenBusinessFieldsTransport1"
-          },
-          {
-            "lovValue": "Perbankan, Hiburan, Asuransi, Konsultan, Travel(Profit)",
-            "lovDisplay": "applyCCJobDataScreenBusinessFieldsBanking",
-            "lovKey": "applyCCJobDataScreenBusinessFieldsBanking1"
-          },
-          {
-            "lovValue": "Pemerintahan, Jasa(Non Profit)",
-            "lovDisplay": "applyCCJobDataScreenBusinessFieldsGovernment",
-            "lovKey": "applyCCJobDataScreenBusinessFieldsGovernment2"
-          },
-          {
-            "lovValue": "Lainnya",
-            "lovDisplay": "applyCCJobDataScreenBusinessFieldsOther",
-            "lovKey": "applyCCJobDataScreenBusinessFieldsOther2"
-          }
-        ],
-        "positionB": [
-          {
-            "lovKey": "applyCCJobDataScreenPositionBKomisaris1",
-            "lovDisplay": "applyCCJobDataScreenPositionBKomisaris",
-            "lovValue": "Komisaris/Pemilik/Persero"
-          },
-          {
-            "lovKey": "applyCCJobDataScreenPositionBKomisaris1",
-            "lovDisplay": "applyCCJobDataScreenPositionBDirekturUtama",
-            "lovValue": "Direktur Utama/CEO"
-          },
-          {
-            "lovKey": "applyCCJobDataScreenPositionBKomisaris1",
-            "lovDisplay": "applyCCJobDataScreenPositionBDirektur",
-            "lovValue": "Direktur/Pejabat Eselon I"
-          },
-          {
-            "lovKey": "applyCCJobDataScreenPositionBKomisaris1",
-            "lovDisplay": "applyCCJobDataScreenPositionBWakilDirektur",
-            "lovValue": "Wakil Direktur"
-          },
-          {
-            "lovKey": "applyCCJobDataScreenPositionBKomisaris1",
-            "lovDisplay": "applyCCJobDataScreenPositionBGeneralManager",
-            "lovValue": "General Manager/Kepala Biro/Pejabat Eselon II"
-          },
-          {
-            "lovKey": "applyCCJobDataScreenPositionBKomisaris1",
-            "lovDisplay": "applyCCJobDataScreenPositionBManager",
-            "lovValue": "Manager/Kepala Bagian/Pejabat Eselon III"
-          },
-          {
-            "lovKey": "applyCCJobDataScreenPositionBKomisaris1",
-            "lovDisplay": "applyCCJobDataScreenPositionBAssistantManager",
-            "lovValue": "Assistant Manager/Kepala Seksi/Pejabat Eselon IV"
-          },
-          {
-            "lovKey": "applyCCJobDataScreenPositionBKomisaris1",
-            "lovDisplay": "applyCCJobDataScreenPositionPStaf",
-            "lovValue": "Staf"
-          },
-        ],
-        "positionS": [
-          {
-            "lovKey": "applyCCJobDataScreenPositionSDirektur1",
-            "lovValue": "Direktur",
-            "lovDisplay": "applyCCJobDataScreenPositionSDirektur"
-          },
-          {
-            "lovKey": "applyCCJobDataScreenPositionSDirektur1",
-            "lovValue": "Wakil Direktur",
-            "lovDisplay": "applyCCJobDataScreenPositionSWakilDirektur"
-          },
-          {
-            "lovKey": "applyCCJobDataScreenPositionSDirektur1",
-            "lovValue": "General Manager/Kepala Biro",
-            "lovDisplay": "applyCCJobDataScreenPositionSGeneralManager"
-          },
-          {
-            "lovKey": "applyCCJobDataScreenPositionSDirektur1",
-            "lovValue": "Manager/Kepala Bagian",
-            "lovDisplay": "applyCCJobDataScreenPositionSManager"
-          },
-          {
-            "lovKey": "applyCCJobDataScreenPositionSDirektur1",
-            "lovValue": "Asisten Manager/Kepala Seksi",
-            "lovDisplay": "applyCCJobDataScreenPositionSAsistenManager"
-          },
-          {
-            "lovKey": "applyCCJobDataScreenPositionSDirektur1",
-            "lovValue": "Staff",
-            "lovDisplay": "applyCCJobDataScreenPositionSStaf"
-          }
-        ],
         "positionP": [
           {
-            "lovKey": "dependents.count.more-than-four",
-            "lovValue": "Direktur/Pejabat Eselon I",
-            "lovDisplay": "applyCCJobDataScreenPositionPDirektur"
-          },
-          {
-            "lovKey": "dependents.count.more-than-four",
             "lovValue": "General Manager/Kepala Biro/Pejabat Eselon II",
-            "lovDisplay": "applyCCJobDataScreenPositionPGeneralManager"
+            "lovDisplay": "applyCCJobDataScreenPositionPGeneralManager",
+            "lovKey": "apply-cc.job-data.positionP.generalManager"
           },
           {
-            "lovKey": "dependents.count.more-than-four",
+            "lovValue": "Direktur/Pejabat Eselon I",
+            "lovDisplay": "applyCCJobDataScreenPositionPDirektur",
+            "lovKey": "apply-cc.job-data.positionP.direktur"
+          },
+          {
+            "lovValue": "Perwira Menengah",
+            "lovDisplay": "applyCCJobDataScreenPositionPPerwiraMenengah",
+            "lovKey": "apply-cc.job-data.positionP.perwiraMenengah"
+          },
+          {
+            "lovValue": "Perwira Pertama",
+            "lovDisplay": "applyCCJobDataScreenPositionPPerwiraPertama",
+            "lovKey": "apply-cc.job-data.positionP.perwiraPertama"
+          },
+          {
+            "lovValue": "Bintara",
+            "lovDisplay": "applyCCJobDataScreenPositionPBintara",
+            "lovKey": "apply-cc.job-data.positionP.bintara"
+          },
+          {
+            "lovValue": "Tamtama",
+            "lovDisplay": "applyCCJobDataScreenPositionPTamtama",
+            "lovKey": "apply-cc.job-data.positionP.tamtama"
+          },
+          {
             "lovValue": "Manager/Kepala Bagian/Pejabat Eselon III",
-            "lovDisplay": "applyCCJobDataScreenPositionPManager"
+            "lovDisplay": "applyCCJobDataScreenPositionPManager",
+            "lovKey": "apply-cc.job-data.positionP.manager"
           },
           {
-            "lovKey": "dependents.count.more-than-four",
             "lovValue": "Assistant Manager/Kepala Seksi/Pejabat Eselon IV",
-            "lovDisplay": "applyCCJobDataScreenPositionPAssistantManager"
+            "lovDisplay": "applyCCJobDataScreenPositionPAssistantManager",
+            "lovKey": "apply-cc.job-data.positionP.assistantManager"
           },
           {
-            "lovKey": "dependents.count.more-than-four",
-            "lovValue": "Staff",
-            "lovDisplay": "applyCCJobDataScreenPositionPStaf"
+            "lovValue": "Staf",
+            "lovDisplay": "applyCCJobDataScreenPositionPStaf",
+            "lovKey": "apply-cc.job-data.positionP.staf"
+          },
+          {
+            "lovValue": "Kepala Pemerintahan",
+            "lovDisplay": "applyCCJobDataScreenPositionPKepalaPemerintahan",
+            "lovKey": "apply-cc.job-data.positionP.kepalaPemerintahan"
+          },
+          {
+            "lovValue": "Aparat Pemerintahan",
+            "lovDisplay": "applyCCJobDataScreenPositionPAparatPemerintahan",
+            "lovKey": "apply-cc.job-data.positionP.aparatPemerintahan"
+          },
+          {
+            "lovValue": "Anggota Lembaga Tinggi Negara",
+            "lovDisplay": "applyCCJobDataScreenPositionPAnggotaLembagaTinggiNegara",
+            "lovKey": "apply-cc.job-data.positionP.anggotaLembagaTinggiNegara"
+          },
+          {
+            "lovValue": "Menteri",
+            "lovDisplay": "applyCCJobDataScreenPositionPMenteri",
+            "lovKey": "apply-cc.job-data.positionP.menteri"
+          },
+          {
+            "lovValue": "Perwira Tinggi",
+            "lovDisplay": "applyCCJobDataScreenPositionPPerwiraTinggi",
+            "lovKey": "apply-cc.job-data.positionP.perwiraTinggi"
           }
         ],
         "positionN": [
           {
-            "lovKey": "dependents.count.more-than-four",
-            "lovValue": "Kepala Pemerintahan",
-            "lovDisplay": "applyCCJobDataScreenPositionPKepalaPemerintahan"
+            "lovValue": "Direktur",
+            "lovDisplay": "applyCCJobDataScreenPositionNDirektur",
+            "lovKey": "apply-cc.job-data.positionN.direktur"
           },
           {
-            "lovKey": "dependents.count.more-than-four",
-            "lovValue": "Aparat Pemerintahan",
-            "lovDisplay": "applyCCJobDataScreenPositionPAparatPemerintahan"
+            "lovValue": "Wakil Direktur",
+            "lovDisplay": "applyCCJobDataScreenPositionNWakilDirektur",
+            "lovKey": "apply-cc.job-data.positionN.wakilDirektur"
           },
           {
-            "lovKey": "dependents.count.more-than-four",
-            "lovValue": "Anggota Lembaga Tinggi Negara",
-            "lovDisplay": "applyCCJobDataScreenPositionPAnggotaLembagaTinggiNegara"
+            "lovValue": "General Manager/Kepala Biro",
+            "lovDisplay": "applyCCJobDataScreenPositionNGeneralManager",
+            "lovKey": "apply-cc.job-data.positionN.generalManager"
           },
           {
-            "lovKey": "dependents.count.more-than-four",
-            "lovValue": "Menteri",
-            "lovDisplay": "applyCCJobDataScreenPositionPMenteri"
+            "lovValue": "Manager/Kepala Bagian",
+            "lovDisplay": "applyCCJobDataScreenPositionNManager",
+            "lovKey": "apply-cc.job-data.positionN.manager"
+          },
+          {
+            "lovValue": "Asisten Manager/Kepala Seksi",
+            "lovDisplay": "applyCCJobDataScreenPositionNAsistenManager",
+            "lovKey": "apply-cc.job-data.positionN.asistenManager"
+          },
+          {
+            "lovValue": "Staf",
+            "lovDisplay": "applyCCJobDataScreenPositionNStaf",
+            "lovKey": "apply-cc.job-data.positionN.staf"
+          }
+        ],
+        "typeCompany": [
+          {
+            "lovValue": "B",
+            "lovDisplay": "applyCCJobDataScreenTypeCompanyBumn",
+            "lovKey": "apply-cc.job-data.typeCompany.bumn"
+          },
+          {
+            "lovValue": "P",
+            "lovDisplay": "applyCCJobDataScreenTypeCompanyGovernmentAgencies",
+            "lovKey": "apply-cc.job-data.typeCompany.governmentAgencies"
+          },
+          {
+            "lovValue": "S",
+            "lovDisplay": "applyCCJobDataScreenTypeCompanyPrivate",
+            "lovKey": "apply-cc.job-data.typeCompany.private"
+          },
+          {
+            "lovValue": "N",
+            "lovDisplay": "applyCCJobDataScreenTypeCompanyNationalPrivate",
+            "lovKey": "apply-cc.job-data.typeCompany.nationalPrivate"
+          },
+          {
+            "lovValue": "M",
+            "lovDisplay": "applyCCJobDataScreenTypeCompanyMultinational",
+            "lovKey": "apply-cc.job-data.typeCompany.multinational"
+          },
+          {
+            "lovValue": "L",
+            "lovDisplay": "applyCCJobDataScreenTypeCompanyOther",
+            "lovKey": "apply-cc.job-data.typeCompany.other"
+          }
+        ],
+        "businessFields": [
+          {
+            "lovValue": "H",
+            "lovDisplay": "applyCCJobDataScreenBusinessFieldsBanking",
+            "lovKey": "apply-cc.job-data.businessFields.banking"
+          },
+          {
+            "lovValue": "I",
+            "lovDisplay": "applyCCJobDataScreenBusinessFieldsGovernment",
+            "lovKey": "apply-cc.job-data.businessFields.government"
+          },
+          {
+            "lovValue": "L",
+            "lovDisplay": "applyCCJobDataScreenBusinessFieldsOther",
+            "lovKey": "apply-cc.job-data.businessFields.other"
+          },
+          {
+            "lovValue": "A",
+            "lovDisplay": "applyCCJobDataScreenBusinessFieldsFarming",
+            "lovKey": "apply-cc.job-data.businessFields.farming"
+          },
+          {
+            "lovValue": "B",
+            "lovDisplay": "applyCCJobDataScreenBusinessFieldsMining",
+            "lovKey": "apply-cc.job-data.businessFields.mining"
+          },
+          {
+            "lovValue": "C",
+            "lovDisplay": "applyCCJobDataScreenBusinessFieldsIndustry",
+            "lovKey": "apply-cc.job-data.businessFields.industry"
+          },
+          {
+            "lovValue": "D",
+            "lovDisplay": "applyCCJobDataScreenBusinessFieldsOil",
+            "lovKey": "apply-cc.job-data.businessFields.oil"
+          },
+          {
+            "lovValue": "E",
+            "lovDisplay": "applyCCJobDataScreenBusinessFieldsProperty",
+            "lovKey": "apply-cc.job-data.businessFields.property"
+          },
+          {
+            "lovValue": "F",
+            "lovDisplay": "applyCCJobDataScreenBusinessFieldsTrading",
+            "lovKey": "apply-cc.job-data.businessFields.trading"
+          },
+          {
+            "lovValue": "G",
+            "lovDisplay": "applyCCJobDataScreenBusinessFieldsTransport",
+            "lovKey": "apply-cc.job-data.businessFields.transport"
+          }
+        ],
+        "positionS": [
+          {
+            "lovValue": "Direktur",
+            "lovDisplay": "applyCCJobDataScreenPositionSDirektur",
+            "lovKey": "apply-cc.job-data.positionS.direktur"
+          },
+          {
+            "lovValue": "Wakil Direktur",
+            "lovDisplay": "applyCCJobDataScreenPositionSWakilDirektur",
+            "lovKey": "apply-cc.job-data.positionS.wakilDirektur"
+          },
+          {
+            "lovValue": "General Manager/Kepala Biro",
+            "lovDisplay": "applyCCJobDataScreenPositionSGeneralManager",
+            "lovKey": "apply-cc.job-data.positionS.generalManager"
+          },
+          {
+            "lovValue": "Manager/Kepala Bagian",
+            "lovDisplay": "applyCCJobDataScreenPositionSManager",
+            "lovKey": "apply-cc.job-data.positionS.manager"
+          },
+          {
+            "lovValue": "Asisten Manager/Kepala Seksi",
+            "lovDisplay": "applyCCJobDataScreenPositionSAsistenManager",
+            "lovKey": "apply-cc.job-data.positionS.asistenManager"
+          },
+          {
+            "lovValue": "Staf",
+            "lovDisplay": "applyCCJobDataScreenPositionSStaf",
+            "lovKey": "apply-cc.job-data.positionS.staf"
           }
         ],
         "positionM": [
           {
-            "lovKey": "dependents.count.more-than-four",
-            "lovValue": "Perwira Tinggi",
-            "lovDisplay": "applyCCJobDataScreenPositionPPerwiraTinggi"
+            "lovValue": "Direktur",
+            "lovDisplay": "applyCCJobDataScreenPositionMDirektur",
+            "lovKey": "apply-cc.job-data.positionM.direktur"
           },
           {
-            "lovKey": "dependents.count.more-than-four",
-            "lovValue": "Perwira Menengah",
-            "lovDisplay": "applyCCJobDataScreenPositionPPerwiraMenengah"
+            "lovValue": "Wakil Direktur",
+            "lovDisplay": "applyCCJobDataScreenPositionMWakilDirektur",
+            "lovKey": "apply-cc.job-data.positionM.wakilDirektur"
           },
           {
-            "lovKey": "dependents.count.more-than-four",
-            "lovValue": "Perwira Pertama",
-            "lovDisplay": "applyCCJobDataScreenPositionPPerwiraPertama"
+            "lovValue": "General Manager/Kepala Biro",
+            "lovDisplay": "applyCCJobDataScreenPositionMGeneralManager",
+            "lovKey": "apply-cc.job-data.positionM.generalManager"
           },
           {
-            "lovKey": "dependents.count.more-than-four",
-            "lovValue": "Bintara",
-            "lovDisplay": "applyCCJobDataScreenPositionPBintara"
+            "lovValue": "Manager/Kepala Bagian",
+            "lovDisplay": "applyCCJobDataScreenPositionMManager",
+            "lovKey": "apply-cc.job-data.positionM.manager"
           },
           {
-            "lovKey": "dependents.count.more-than-four",
-            "lovValue": "Tamtama",
-            "lovDisplay": "applyCCJobDataScreenPositionPTamtama"
+            "lovValue": "Asisten Manager/Kepala Seksi",
+            "lovDisplay": "applyCCJobDataScreenPositionMAsistenManager",
+            "lovKey": "apply-cc.job-data.positionM.asistenManager"
+          },
+          {
+            "lovValue": "Staf",
+            "lovDisplay": "applyCCJobDataScreenPositionMStaf",
+            "lovKey": "apply-cc.job-data.positionM.staf"
+          }
+        ],
+        "positionB": [
+          {
+            "lovValue": "Komisaris/Pemilik/Persero",
+            "lovDisplay": "applyCCJobDataScreenPositionBKomisaris",
+            "lovKey": "apply-cc.job-data.positionB.komisaris"
+          },
+          {
+            "lovValue": "Direktur Utama/CEO",
+            "lovDisplay": "applyCCJobDataScreenPositionBDirekturUtama",
+            "lovKey": "apply-cc.job-data.positionB.direkturUtama"
+          },
+          {
+            "lovValue": "Direktur/Pejabat Eselon I",
+            "lovDisplay": "applyCCJobDataScreenPositionBDirektur",
+            "lovKey": "apply-cc.job-data.positionB.direktur"
+          },
+          {
+            "lovValue": "Wakil Direktur",
+            "lovDisplay": "applyCCJobDataScreenPositionBWakilDirektur",
+            "lovKey": "apply-cc.job-data.positionB.wakilDirektur"
+          },
+          {
+            "lovValue": "General Manager/Kepala Biro/Pejabat Eselon II",
+            "lovDisplay": "applyCCJobDataScreenPositionBGeneralManager",
+            "lovKey": "apply-cc.job-data.positionB.generalManager"
+          },
+          {
+            "lovValue": "Manager/Kepala Bagian/Pejabat Eselon III",
+            "lovDisplay": "applyCCJobDataScreenPositionBManager",
+            "lovKey": "apply-cc.job-data.positionB.manager"
+          },
+          {
+            "lovValue": "Assistant Manager/Kepala Seksi/Pejabat Eselon IV",
+            "lovDisplay": "applyCCJobDataScreenPositionBAssistantManager",
+            "lovKey": "apply-cc.job-data.positionB.assistantManager"
+          },
+          {
+            "lovValue": "Staf",
+            "lovDisplay": "applyCCJobDataScreenPositionBStaf",
+            "lovKey": "apply-cc.job-data.positionB.staf"
+          }
+        ],
+        "positionL": [
+          {
+            "lovValue": "Other",
+            "lovDisplay": "applyCCJobDataScreenPositionLOther",
+            "lovKey": "apply-cc.job-data.positionL.other"
           }
         ]
       }
