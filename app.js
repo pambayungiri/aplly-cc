@@ -399,6 +399,17 @@ app.post("/apc/v1/upsert-document", (req, res) => {
   });
 });
 
+app.post("/apc/v1/preparation", (req, res) => {
+
+  console.log(req.body);
+  
+  res.json({
+    "dataProtected" : {
+        "transactionId" : "nanoId"
+    }
+});
+});
+
 app.get("/apc/v1/personal-data", (req, res) => {
   res.json({
     "dataProtected": {
@@ -1231,6 +1242,7 @@ app.get("/reference/v1/provinces/:provinceCode/cities", (req, res) => {
     }
   });
 });
+
 
 app.get("/reference/v1/cities/:cityCode/districts", (req, res) => {
   console.log(req.params);
