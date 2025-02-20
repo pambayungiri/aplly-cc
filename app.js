@@ -24,6 +24,45 @@ app.post("/apc/v1/card-list", (req, res) => {
     "dataProtected": {
       "cardList": [
         {
+          "cardProductName": "BNI AMEX Vibe",
+          "binFirstDigit": "370136",
+          "id": "sr-G7x2pkNDU_rrlHwIBt",
+          "cardProfile": {
+            "promo": [
+              "HIBURAN",
+              "TOKO"
+            ],
+            "income": "A"
+          },
+          "benefit": {
+            "description": {
+              "en": [],
+              "id": [
+                "Cashback Rp 250 ribu untuk pengajuan Kartu Kredit BNI yang disetujui dengan melakukan minimum akumulasi transaksi selama 2 bulan (sejak Kartu Kredit BNI disetujui) sebesar Rp 5.000.000,-",
+                "Welcome Cashback Rp 50 ribu untuk aktivasi kartu dalam periode 1 bulan setelah kartu kredit disetujui",
+                "Diskon up to Rp 30 ribu untuk GrabCar, GrabBike dan GrabFood",
+                "Promo Buy 1 Get 2 di XXI, CGV, Cinepolis dan Mtix",
+                "Diskon 10% di Tokopedia, Shopee dan Blibli",
+                "Free Annual Fee for Life, tahun pertama tanpa syarat, tahun kedua dan seterusnya dengan syarat minimal 1x transaksi di tahun sebelumnya dengan nominal berapapun"
+              ]
+            },
+            "title": "applyCcDetailSceenBenefitTitle"
+          },
+          "benefitCount": 6,
+          "promo": {
+            "description": {
+              "en": [],
+              "id": []
+            },
+            "title": "applyCcDetailSceenPromoTitle"
+          },
+          "position": 5,
+          "category": "SHOPPING",
+          "cardProductDescription": "Kartu Kredit yang dipersembahkan bagi Anda untuk menunjang gaya hidup dan aktivitas sehari-hari. Nikmati berbagai benefit dan privileges yang kami tawarkan khusus bagi Anda.",
+          "image": "https://mav-apigw-ext-test2.bni.co.id:48202/asset/v1/image/9hQtpCJDGQSiRhm2NxInQ.png",
+          "isRecommend": null
+        },
+        {
           "id": "Y8DErxapFYL46_aCP8Orz",
           "cardProductDescription": "Coba Tiga",
           "cardProfile": {
