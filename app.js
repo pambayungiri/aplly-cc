@@ -58,7 +58,7 @@ app.post("/apc/v1/card-list", (req, res) => {
           },
           "position": 5,
           "category": "SHOPPING",
-          "cardProductDescription": "Kartu Kredit yang dipersembahkan bagi Anda untuk menunjang gaya hidup dan aktivitas sehari-hari. Nikmati berbagai benefit dan privileges yang kami tawarkan khusus bagi Anda.",
+          "cardProductDescription": "Kartu Kredit yang dipersembahkan bagi Anda untuk menunjang gaya hidup dan aktivitas sehari-hari.",
           "image": "https://mav-apigw-ext-test2.bni.co.id:48202/asset/v1/image/9hQtpCJDGQSiRhm2NxInQ.png",
           "isRecommend": null
         },
