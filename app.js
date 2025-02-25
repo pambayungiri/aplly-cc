@@ -452,16 +452,19 @@ app.post("/apc/v1/preparation", (req, res) => {
 app.get("/apc/v1/personal-data", (req, res) => {
   res.json({
     "dataProtected": {
+      "rt": "11",
       "postalCode": "11730",
-      "district": "CENGKARENG",
-      "jobStatus": "PROFESIONAL",
-      "address": "QQ123",
-      "buildingName": "",
-      "subdistrict": "CENGKARENG BARAT",
+      "fullName": "SYAMSUL BAHRI",
       "province": "DKI JAKARTA",
-      "city": "JAKARTA BARAT",
+      "subdistrict": "CENGKARENG BARAT",
+      "jobStatus": "PROFESIONAL",
+      "ktp": "3671060808950005",
       "rw": "",
-      "rt": "11"
+      "city": "JAKARTA BARAT",
+      "buildingName": "",
+      "address": "QQ123",
+      "district": "CENGKARENG",
+      "jobPositionDropdown": "PEGAWAI_SWASTA"
     }
   });
 });
