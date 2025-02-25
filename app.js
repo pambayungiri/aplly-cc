@@ -1172,7 +1172,7 @@ app.get("/reference/v1/lov", (req, res) => {
 app.get("/apc/v1/personal-data", (req, res) => {
   res.send({
       dataProtected: {
-        jobStatus: "TIDAK BEKERJA",
+        jobStatus: "LAIN-LAIN",
         address: "JL. SETIABUDI",
         rt: "35",
         rw: "35",
