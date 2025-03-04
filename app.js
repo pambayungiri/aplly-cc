@@ -24,6 +24,50 @@ app.post("/apc/v1/card-list", (req, res) => {
     "dataProtected": {
       "cardList": [
         {
+          "cardProductName": "BNI MyPertamina Platinum",
+          "binFirstDigit": "000000",
+          "id": "T_6RwNMQ5jKdLbQs_r6J_",
+          "cardProfile": {
+            "promo": [
+              "HIBURAN",
+              "TOKO"
+            ],
+            "income": "A"
+          },
+          "benefit": {
+            "description": {
+              "en": [
+                "Discount 10% untuk pembelian membership The Card",
+                "Cashback 5% untuk Green Fee",
+                "Cashback 5% untuk transaksi di merchant-merchant Golf (Apparel, Merchandise, & Restaurant at Golf Course)",
+                "Bebas iuran tahunan tanpa syarat di tahun ke-1",
+                "Bebas iuran tahunan di tahun ke-2 dan seterusnya dengan syarat transaksi 1x di tahun sebelumnya."
+              ],
+              "id": [
+                "Discount 10% untuk pembelian membership The Card",
+                "Cashback 5% untuk Green Fee",
+                "Cashback 5% untuk transaksi di merchant-merchant Golf (Apparel, Merchandise, & Restaurant at Golf Course)",
+                "Bebas iuran tahunan tanpa syarat di tahun ke-1",
+                "Bebas iuran tahunan di tahun ke-2 dan seterusnya dengan syarat transaksi 1x di tahun sebelumnya."
+              ]
+            },
+            "title": "applyCcDetailSceenBenefitTitle"
+          },
+          "benefitCount": 5,
+          "promo": {
+            "description": {
+              "en": [],
+              "id": []
+            },
+            "title": "applyCcDetailSceenPromoTitle"
+          },
+          "position": 5,
+          "category": "LIFESTYLE",
+          "cardProductDescription": "Kartu hasil kerjasama co-branding antara BNI dan PT. Lotte Mart Indonesia yang ditujukan bagi pelanggan setia LOTTE Mart.",
+          "image": "https://mav-apigw-ext-test2.bni.co.id:48202/asset/v1/image/SfUVdDhDZA2-wz-S9qUVc.png",
+          "isRecommend": null
+        },
+        {
           "cardProductName": "BNI AMEX Vibe",
           "binFirstDigit": "370136",
           "id": "sr-G7x2pkNDU_rrlHwIBt",
@@ -36,7 +80,14 @@ app.post("/apc/v1/card-list", (req, res) => {
           },
           "benefit": {
             "description": {
-              "en": [],
+              "en": [
+                "Cashback Rp 250 ribu untuk pengajuan Kartu Kredit BNI yang disetujui dengan melakukan minimum akumulasi transaksi selama 2 bulan (sejak Kartu Kredit BNI disetujui) sebesar Rp 5.000.000,-",
+                "Welcome Cashback Rp 50 ribu untuk aktivasi kartu dalam periode 1 bulan setelah kartu kredit disetujui",
+                "Diskon up to Rp 30 ribu untuk GrabCar, GrabBike dan GrabFood",
+                "Promo Buy 1 Get 2 di XXI, CGV, Cinepolis dan Mtix",
+                "Diskon 10% di Tokopedia, Shopee dan Blibli",
+                "Free Annual Fee for Life, tahun pertama tanpa syarat, tahun kedua dan seterusnya dengan syarat minimal 1x transaksi di tahun sebelumnya dengan nominal berapapun"
+              ],
               "id": [
                 "Cashback Rp 250 ribu untuk pengajuan Kartu Kredit BNI yang disetujui dengan melakukan minimum akumulasi transaksi selama 2 bulan (sejak Kartu Kredit BNI disetujui) sebesar Rp 5.000.000,-",
                 "Welcome Cashback Rp 50 ribu untuk aktivasi kartu dalam periode 1 bulan setelah kartu kredit disetujui",
@@ -57,56 +108,15 @@ app.post("/apc/v1/card-list", (req, res) => {
             "title": "applyCcDetailSceenPromoTitle"
           },
           "position": 5,
-          "category": "SHOPPING",
-          "cardProductDescription": "Kartu Kredit yang dipersembahkan bagi Anda untuk menunjang gaya hidup dan aktivitas sehari-hari.",
+          "category": "DAILY_NEEDS",
+          "cardProductDescription": "Kartu Kredit yang dipersembahkan bagi Anda untuk menunjang gaya hidup dan aktivitas sehari-hari. Nikmati berbagai benefit dan privileges yang kami tawarkan khusus bagi Anda.",
           "image": "https://mav-apigw-ext-test2.bni.co.id:48202/asset/v1/image/9hQtpCJDGQSiRhm2NxInQ.png",
           "isRecommend": null
         },
         {
-          "id": "Y8DErxapFYL46_aCP8Orz",
-          "cardProductDescription": "Coba Tiga",
-          "cardProfile": {
-            "promo": [
-              "HIBURAN",
-              "TOKO"
-            ],
-            "income": "A"
-          },
-          "benefit": {
-            "title": "applyCcDetailSceenBenefitTitle",
-            "description": {
-              "en": [
-                "Shop easily and securely on e-commerce up to Rp10 million per day.",
-                "Your Mastercard can be used for transactions both domestically and internationally.",
-                "Welcome package of 120,000 KrisFlyer miles (equivalent to a round-trip business class ticket from Jakarta to Dubai/Hong Kong/Tokyo on Singapore Airlines).",
-                "Welcome package of 120,000 KrisFlyer miles (equivalent to a round-trip business class ticket from Jakarta to Dubai/Hong Kong/Tokyo on Singapore Airlines)."
-              ],
-              "id": [
-                "Dapetin miles lebih banyak setiap transaksi Rp20.000 / 2 Garuda Miles",
-                "Extra diskon 10% setiap hari Rabu di website/App Garuda Indonesia",
-                "Welcome bonus sebesar 35.000 Garuda Miles (setara tiket pergi ke Jepang dengan Garuda Indonesia)",
-                "Jaminan perlindungan asuransi kecelakaan dalam perjalanan dengan santunan hingga maksimum Rp 3 milyar untuk pemegang Kartu Kredit Garuda BNI Visa Signature dan Rp 1 milyar untuk pemegang Kartu Kredit Garuda BNI Visa Platinum."
-              ]
-            }
-          },
-          "promo": {
-            "title": "applyCcDetailSceenPromoTitle",
-            "description": {
-              "en": [],
-              "id": []
-            }
-          },
-          "benefitCount": 4,
-          "category": "TRAVEL",
-          "position": 1,
           "cardProductName": "BNI Mastercard Titanium",
-          "isRecommend": null,
           "binFirstDigit": "524125",
-          "image": ""
-        },
-        {
-          "id": "Y8DErxapFYL46_aCP8Orz",
-          "cardProductDescription": "Copy dua",
+          "id": "ZdyQlt-g9Ls7qh7Pb407G",
           "cardProfile": {
             "promo": [
               "HIBURAN",
@@ -115,294 +125,119 @@ app.post("/apc/v1/card-list", (req, res) => {
             "income": "A"
           },
           "benefit": {
-            "title": "applyCcDetailSceenBenefitTitle",
             "description": {
               "en": [
-                "Shop easily and securely on e-commerce up to Rp10 million per day.",
-                "Your Mastercard can be used for transactions both domestically and internationally.",
-                "Welcome package of 120,000 KrisFlyer miles (equivalent to a round-trip business class ticket from Jakarta to Dubai/Hong Kong/Tokyo on Singapore Airlines).",
-                "Welcome package of 120,000 KrisFlyer miles (equivalent to a round-trip business class ticket from Jakarta to Dubai/Hong Kong/Tokyo on Singapore Airlines)."
+                "2x BNI Rewards Point untuk transaksi domestik di MCC Hotel melalui website/apps/outlet",
+                "Hotel (contoh : www.ritzcarlton.com, www.marriott.com dan lain-lain) dan MCC Travel melalui Travel Agent/Online Travel Agent (contoh : Traveloka, Tiket.com dan lain-lain) dengan minimum transaksi Rp 1 juta",
+                "Dapatkan 2x BNI Rewards Point untuk transaksi overseas offline di MCC mana saja dengan minimum transaksi Rp 1 juta.",
+                "Cashback 3% hingga Rp 200 ribu untuk setiap transaksi di MCC Airlines minimal Akumulasi Rp 6,5 Juta per bulan melalui website/apps/outlet airlines atau maskapai (contoh : Garuda, Emirates, https://www.ana.co.jp/id/id/ dan lain-lain)",
+                "Bebas iuran untuk 1 tahun pertama"
               ],
               "id": [
-                "Dapetin miles lebih banyak setiap transaksi Rp20.000 / 2 Garuda Miles",
-                "Extra diskon 10% setiap hari Rabu di website/App Garuda Indonesia",
-                "Welcome bonus sebesar 35.000 Garuda Miles (setara tiket pergi ke Jepang dengan Garuda Indonesia)",
-                "Jaminan perlindungan asuransi kecelakaan dalam perjalanan dengan santunan hingga maksimum Rp 3 milyar untuk pemegang Kartu Kredit Garuda BNI Visa Signature dan Rp 1 milyar untuk pemegang Kartu Kredit Garuda BNI Visa Platinum."
+                "2x BNI Rewards Point untuk transaksi domestik di MCC Hotel melalui website/apps/outlet",
+                "Hotel (contoh : www.ritzcarlton.com, www.marriott.com dan lain-lain) dan MCC Travel melalui Travel Agent/Online Travel Agent (contoh : Traveloka, Tiket.com dan lain-lain) dengan minimum transaksi Rp 1 juta",
+                "Dapatkan 2x BNI Rewards Point untuk transaksi overseas offline di MCC mana saja dengan minimum transaksi Rp 1 juta.",
+                "Cashback 3% hingga Rp 200 ribu untuk setiap transaksi di MCC Airlines minimal Akumulasi Rp 6,5 Juta per bulan melalui website/apps/outlet airlines atau maskapai (contoh : Garuda, Emirates, https://www.ana.co.jp/id/id/ dan lain-lain)",
+                "Bebas iuran untuk 1 tahun pertama"
               ]
-            }
+            },
+            "title": "applyCcDetailSceenBenefitTitle"
           },
+          "benefitCount": 5,
           "promo": {
-            "title": "applyCcDetailSceenPromoTitle",
             "description": {
               "en": [],
               "id": []
-            }
+            },
+            "title": "applyCcDetailSceenPromoTitle"
           },
-          "benefitCount": 4,
-          "category": "TRAVEL",
-          "position": 1,
-          "cardProductName": "BNI Mastercard Titanium",
-          "isRecommend": null,
-          "binFirstDigit": "524125",
-          "image": ""
-        },
-        {
-          "id": "Y8DErxapFYL46_aCP8Orz",
-          "cardProductDescription": "Copy satu",
-          "cardProfile": {
-            "promo": [
-              "HIBURAN",
-              "TOKO"
-            ],
-            "income": "A"
-          },
-          "benefit": {
-            "title": "applyCcDetailSceenBenefitTitle",
-            "description": {
-              "en": [
-                "Shop easily and securely on e-commerce up to Rp10 million per day.",
-                "Your Mastercard can be used for transactions both domestically and internationally.",
-                "Welcome package of 120,000 KrisFlyer miles (equivalent to a round-trip business class ticket from Jakarta to Dubai/Hong Kong/Tokyo on Singapore Airlines).",
-                "Welcome package of 120,000 KrisFlyer miles (equivalent to a round-trip business class ticket from Jakarta to Dubai/Hong Kong/Tokyo on Singapore Airlines)."
-              ],
-              "id": [
-                "Dapetin miles lebih banyak setiap transaksi Rp20.000 / 2 Garuda Miles",
-                "Extra diskon 10% setiap hari Rabu di website/App Garuda Indonesia",
-                "Welcome bonus sebesar 35.000 Garuda Miles (setara tiket pergi ke Jepang dengan Garuda Indonesia)",
-                "Jaminan perlindungan asuransi kecelakaan dalam perjalanan dengan santunan hingga maksimum Rp 3 milyar untuk pemegang Kartu Kredit Garuda BNI Visa Signature dan Rp 1 milyar untuk pemegang Kartu Kredit Garuda BNI Visa Platinum."
-              ]
-            }
-          },
-          "promo": {
-            "title": "applyCcDetailSceenPromoTitle",
-            "description": {
-              "en": [],
-              "id": []
-            }
-          },
-          "benefitCount": 4,
-          "category": "TRAVEL",
-          "position": 1,
-          "cardProductName": "BNI Mastercard Titanium",
-          "isRecommend": null,
-          "binFirstDigit": "524125",
-          "image": ""
-        },
-        {
-          "id": "Y8DErxapFYL46_aCP8Orz",
-          "cardProductDescription": "BNI Mastercard Titanium Description",
-          "cardProfile": {
-            "promo": [
-              "HIBURAN",
-              "TOKO"
-            ],
-            "income": "A"
-          },
-          "benefit": {
-            "title": "applyCcDetailSceenBenefitTitle",
-            "description": {
-              "en": [
-                "Shop easily and securely on e-commerce up to Rp10 million per day.",
-                "Your Mastercard can be used for transactions both domestically and internationally.",
-                "Welcome package of 120,000 KrisFlyer miles (equivalent to a round-trip business class ticket from Jakarta to Dubai/Hong Kong/Tokyo on Singapore Airlines).",
-                "Welcome package of 120,000 KrisFlyer miles (equivalent to a round-trip business class ticket from Jakarta to Dubai/Hong Kong/Tokyo on Singapore Airlines)."
-              ],
-              "id": [
-                "Dapetin miles lebih banyak setiap transaksi Rp20.000 / 2 Garuda Miles",
-                "Extra diskon 10% setiap hari Rabu di website/App Garuda Indonesia",
-                "Welcome bonus sebesar 35.000 Garuda Miles (setara tiket pergi ke Jepang dengan Garuda Indonesia)",
-                "Jaminan perlindungan asuransi kecelakaan dalam perjalanan dengan santunan hingga maksimum Rp 3 milyar untuk pemegang Kartu Kredit Garuda BNI Visa Signature dan Rp 1 milyar untuk pemegang Kartu Kredit Garuda BNI Visa Platinum."
-              ]
-            }
-          },
-          "promo": {
-            "title": "applyCcDetailSceenPromoTitle",
-            "description": {
-              "en": [],
-              "id": []
-            }
-          },
-          "benefitCount": 4,
-          "category": "TRAVEL",
-          "position": 1,
-          "cardProductName": "BNI Mastercard Titanium",
-          "isRecommend": null,
-          "binFirstDigit": "524125",
-          "image": ""
-        },
-        {
-          "id": "kZleLawaNT09De6BEEcco",
-          "cardProductDescription": "Kebebasan bertransaksi global dengan limit tinggi.",
-          "cardProfile": {
-            "promo": [
-              "HIBURAN",
-              "TOKO"
-            ],
-            "income": "A"
-          },
-          "benefit": {
-            "title": "applyCcDetailSceenBenefitTitle",
-            "description": {
-              "en": [
-                "Shop easily and securely on e-commerce up to Rp10 million per day.",
-                "Your Mastercard can be used for transactions both domestically and internationally.",
-                "Welcome package of 120,000 KrisFlyer miles (equivalent to a round-trip business class ticket from Jakarta to Dubai/Hong Kong/Tokyo on Singapore Airlines).",
-                "Welcome package of 120,000 KrisFlyer miles (equivalent to a round-trip business class ticket from Jakarta to Dubai/Hong Kong/Tokyo on Singapore Airlines)."
-              ],
-              "id": [
-                "Dapetin miles lebih banyak setiap transaksi Rp20.000 / 2 Garuda Miles",
-                "Extra diskon 10% setiap hari Rabu di website/App Garuda Indonesia",
-                "Welcome bonus sebesar 35.000 Garuda Miles (setara tiket pergi ke Jepang dengan Garuda Indonesia)",
-                "Jaminan perlindungan asuransi kecelakaan dalam perjalanan dengan santunan hingga maksimum Rp 3 milyar untuk pemegang Kartu Kredit Garuda BNI Visa Signature dan Rp 1 milyar untuk pemegang Kartu Kredit Garuda BNI Visa Platinum."
-              ]
-            }
-          },
-          "promo": {
-            "title": "applyCcDetailSceenPromoTitle",
-            "description": {
-              "en": [],
-              "id": []
-            }
-          },
-          "benefitCount": 4,
-          "category": "CASHBACK",
-          "position": 2,
-          "cardProductName": "Mastercard World",
-          "isRecommend": null,
-          "binFirstDigit": "510055",
-          "image": "https://mav-apigw-ext-test2.bni.co.id:48202/asset/v1/image/V0hiW-zDNDOuW6lXjGkjg.png"
-        },
-        {
-          "id": "CnApMNCssz-4nHMrtdE15",
-          "cardProductDescription": "Nikmati keuntungan eksklusif dengan di setiap perjalanan.",
-          "cardProfile": {
-            "promo": [
-              "HIBURAN",
-              "TOKO"
-            ],
-            "income": "A"
-          },
-          "benefit": {
-            "title": "applyCcDetailSceenBenefitTitle",
-            "description": {
-              "en": [
-                "Shop easily and securely on e-commerce up to Rp10 million per day.",
-                "Your Mastercard can be used for transactions both domestically and internationally.",
-                "Welcome package of 120,000 KrisFlyer miles (equivalent to a round-trip business class ticket from Jakarta to Dubai/Hong Kong/Tokyo on Singapore Airlines).",
-                "Welcome package of 120,000 KrisFlyer miles (equivalent to a round-trip business class ticket from Jakarta to Dubai/Hong Kong/Tokyo on Singapore Airlines)."
-              ],
-              "id": [
-                "Dapetin miles lebih banyak setiap transaksi Rp20.000 / 2 Garuda Miles",
-                "Extra diskon 10% setiap hari Rabu di website/App Garuda Indonesia",
-                "Welcome bonus sebesar 35.000 Garuda Miles (setara tiket pergi ke Jepang dengan Garuda Indonesia)",
-                "Jaminan perlindungan asuransi kecelakaan dalam perjalanan dengan santunan hingga maksimum Rp 3 milyar untuk pemegang Kartu Kredit Garuda BNI Visa Signature dan Rp 1 milyar untuk pemegang Kartu Kredit Garuda BNI Visa Platinum."
-              ]
-            }
-          },
-          "promo": {
-            "title": "Ajukan hingga 31 Desember 2024 biar langsung dapetin promo spesialnya:",
-            "description": {
-              "en": [
-                "Instan Upgrade ke Garuda Gold Privilege",
-                "Akses ke Garuda Executive Lounge (Domestik dan Internasional)"
-              ],
-              "id": [
-                "Instan Upgrade ke Garuda Gold Privilege",
-                "Akses ke Garuda Executive Lounge (Domestik dan Internasional)"
-              ]
-            }
-          },
-          "benefitCount": 4,
-          "category": "TRAVEL",
-          "position": 3,
-          "cardProductName": "Garuda Visa Signature",
-          "isRecommend": null,
-          "binFirstDigit": "466573",
-          "image": "https://mav-apigw-ext-test2.bni.co.id:48202/asset/v1/image/J3sA1Afyy63As4NmxCvSd.png"
-        },
-        {
-          "id": "_C_HJmdT19NHTf0dwsn7F",
-          "cardProductDescription": "Nikmati keuntungan menarik dalam setiap perjalanan.",
-          "cardProfile": {
-            "promo": [
-              "HIBURAN",
-              "TOKO"
-            ],
-            "income": "A"
-          },
-          "benefit": {
-            "title": "applyCcDetailSceenBenefitTitle",
-            "description": {
-              "en": [
-                "Shop easily and securely on e-commerce up to Rp10 million per day.",
-                "Your Mastercard can be used for transactions both domestically and internationally.",
-                "Welcome package of 120,000 KrisFlyer miles (equivalent to a round-trip business class ticket from Jakarta to Dubai/Hong Kong/Tokyo on Singapore Airlines).",
-                "Welcome package of 120,000 KrisFlyer miles (equivalent to a round-trip business class ticket from Jakarta to Dubai/Hong Kong/Tokyo on Singapore Airlines)."
-              ],
-              "id": [
-                "Dapetin miles lebih banyak setiap transaksi Rp20.000 / 2 Garuda Miles",
-                "Extra diskon 10% setiap hari Rabu di website/App Garuda Indonesia",
-                "Welcome bonus sebesar 35.000 Garuda Miles (setara tiket pergi ke Jepang dengan Garuda Indonesia)",
-                "Jaminan perlindungan asuransi kecelakaan dalam perjalanan dengan santunan hingga maksimum Rp 3 milyar untuk pemegang Kartu Kredit Garuda BNI Visa Signature dan Rp 1 milyar untuk pemegang Kartu Kredit Garuda BNI Visa Platinum."
-              ]
-            }
-          },
-          "promo": {
-            "title": "applyCcDetailSceenPromoTitle",
-            "description": {
-              "en": [],
-              "id": []
-            }
-          },
-          "benefitCount": 4,
-          "category": "SHOPPING",
-          "position": 4,
-          "cardProductName": "Garuda Visa Platinum",
-          "isRecommend": null,
-          "binFirstDigit": "466574",
-          "image": "https://mav-apigw-ext-test2.bni.co.id:48202/asset/v1/image/2wzzdbWnj0gr23_w_rGeA.png"
-        },
-        {
-          "id": "hUjU2JLEP_BbbBP1WKcfn",
-          "cardProductDescription": "Rasakan lebih banyak keuntungan dalam setiap perjalananmu.",
-          "cardProfile": {
-            "promo": [
-              "HIBURAN",
-              "TOKO"
-            ],
-            "income": "A"
-          },
-          "benefit": {
-            "title": "applyCcDetailSceenBenefitTitle",
-            "description": {
-              "en": [
-                "Shop easily and securely on e-commerce up to Rp10 million per day.",
-                "Your Mastercard can be used for transactions both domestically and internationally.",
-                "Welcome package of 120,000 KrisFlyer miles (equivalent to a round-trip business class ticket from Jakarta to Dubai/Hong Kong/Tokyo on Singapore Airlines).",
-                "Welcome package of 120,000 KrisFlyer miles (equivalent to a round-trip business class ticket from Jakarta to Dubai/Hong Kong/Tokyo on Singapore Airlines)."
-              ],
-              "id": [
-                "Dapetin miles lebih banyak setiap transaksi Rp20.000 / 2 Garuda Miles",
-                "Extra diskon 10% setiap hari Rabu di website/App Garuda Indonesia",
-                "Welcome bonus sebesar 35.000 Garuda Miles (setara tiket pergi ke Jepang dengan Garuda Indonesia)",
-                "Jaminan perlindungan asuransi kecelakaan dalam perjalanan dengan santunan hingga maksimum Rp 3 milyar untuk pemegang Kartu Kredit Garuda BNI Visa Signature dan Rp 1 milyar untuk pemegang Kartu Kredit Garuda BNI Visa Platinum."
-              ]
-            }
-          },
-          "promo": {
-            "title": "applyCcDetailSceenPromoTitle",
-            "description": {
-              "en": [],
-              "id": []
-            }
-          },
-          "benefitCount": 4,
-          "category": "TRAVEL",
           "position": 5,
-          "cardProductName": "Batik Air Platinum",
-          "isRecommend": null,
-          "binFirstDigit": "523239",
-          "image": "https://mav-apigw-ext-test2.bni.co.id:48202/asset/v1/image/_kHfO90kGA3bZW_N3vHfU.png"
+          "category": "DAILY_NEEDS",
+          "cardProductDescription": "Kartu Kredit BNI yang didesain khusus untuk Millenial dan Gen Z yang memiliki jiwa petualang. Dengan desain kartu berkonsep unik, Kartu Kredit BNI Titanium menjadi simbol perjalanan hidup berjiwa muda yang penuh dengan petualangan.",
+          "image": "",
+          "isRecommend": null
+        },
+        {
+          "cardProductName": "BNI MyPertamina Platinum",
+          "binFirstDigit": "000000",
+          "id": "T_6RwNMQ5jKdLbQs_r6JA",
+          "cardProfile": {
+            "promo": [
+              "HIBURAN",
+              "TOKO"
+            ],
+            "income": "A"
+          },
+          "benefit": {
+            "description": {
+              "en": [
+                "Nikmati Cashback 8% untuk BBM, Welcome Cashback Rp 200 Ribu dan 2X BNI Rewards Point setiap kali bertransaksi menggunakan Aplikasi MyPertamina.",
+                "Selain itu, nikmati juga Diskon Rp 100 Ribu untuk transaksi di e-commerce Shopee!"
+              ],
+              "id": [
+                "Nikmati Cashback 8% untuk BBM, Welcome Cashback Rp 200 Ribu dan 2X BNI Rewards Point setiap kali bertransaksi menggunakan Aplikasi MyPertamina.",
+                "Selain itu, nikmati juga Diskon Rp 100 Ribu untuk transaksi di e-commerce Shopee!"
+              ]
+            },
+            "title": "applyCcDetailSceenBenefitTitle"
+          },
+          "benefitCount": 2,
+          "promo": {
+            "description": {
+              "en": [],
+              "id": []
+            },
+            "title": "applyCcDetailSceenPromoTitle"
+          },
+          "position": 5,
+          "category": "DAILY_NEEDS",
+          "cardProductDescription": "Kartu hasil kerjasama co-branding antara BNI dan PT. Lotte Mart Indonesia yang ditujukan bagi pelanggan setia LOTTE Mart.",
+          "image": "https://mav-apigw-ext-test2.bni.co.id:48202/asset/v1/image/SfUVdDhDZA2-wz-S9qUVc.png",
+          "isRecommend": null
+        },
+        {
+          "cardProductName": "BNI APLGI The Card",
+          "binFirstDigit": "000000",
+          "id": "Md6cqZD7E2y-YRQbGmhTX",
+          "cardProfile": {
+            "promo": [
+              "HIBURAN",
+              "TOKO"
+            ],
+            "income": "A"
+          },
+          "benefit": {
+            "description": {
+              "en": [
+                "Discount 10% untuk pembelian membership The Card",
+                "Cashback 5% untuk Green Fee",
+                "Cashback 5% untuk transaksi di merchant-merchant Golf (Apparel, Merchandise, & Restaurant at Golf Course)",
+                "Bebas iuran tahunan tanpa syarat di tahun ke-1",
+                "Bebas iuran tahunan di tahun ke-2 dan seterusnya dengan syarat transaksi 1x di tahun sebelumnya."
+              ],
+              "id": [
+                "Discount 10% untuk pembelian membership The Card",
+                "Cashback 5% untuk Green Fee",
+                "Cashback 5% untuk transaksi di merchant-merchant Golf (Apparel, Merchandise, & Restaurant at Golf Course)",
+                "Bebas iuran tahunan tanpa syarat di tahun ke-1",
+                "Bebas iuran tahunan di tahun ke-2 dan seterusnya dengan syarat transaksi 1x di tahun sebelumnya."
+              ]
+            },
+            "title": "applyCcDetailSceenBenefitTitle"
+          },
+          "benefitCount": 5,
+          "promo": {
+            "description": {
+              "en": [],
+              "id": []
+            },
+            "title": "applyCcDetailSceenPromoTitle"
+          },
+          "position": 5,
+          "category": "DAILY_NEEDS",
+          "cardProductDescription": "Kartu hasil kerjasama antara BNI dan Asosiasi Pemilik Lapangan Golf Indonesia (APLGI) yang dipersembahkan untuk Anda pecinta olahraga golf",
+          "image": "https://mav-apigw-ext-test2.bni.co.id:48202/asset/v1/image/fJoYiDoWUIFKJ7tWafanI.png",
+          "isRecommend": null
         }
       ]
     }
@@ -433,7 +268,7 @@ app.post("/apc/v1/upsert-document", (req, res) => {
   
   res.json({
     "dataProtected": {
-      "id": "W85eSpyKL1owGGFVYz-cu"
+      "id": "E3rZabj2qQWSHq5dqPIzK"
     }
   });
 });
@@ -443,55 +278,71 @@ app.post("/apc/v1/preparation", (req, res) => {
   console.log(req.body);
   
   res.json({
-    "dataProtected" : {
-        "transactionId" : "nanoId"
-    }
-});
-});
-
-app.get("/apc/v1/personal-data", (req, res) => {
-  res.json({
     "dataProtected": {
-      "rt": "11",
-      "postalCode": "11730",
-      "fullName": "SYAMSUL BAHRI",
-      "province": "DKI JAKARTA",
-      "subdistrict": "CENGKARENG BARAT",
-      "jobStatus": "PROFESIONAL",
-      "ktp": "3671060808950005",
-      "rw": "",
-      "city": "JAKARTA BARAT",
-      "buildingName": "",
-      "address": "QQ123",
-      "district": "CENGKARENG",
-      "jobPositionDropdown": "PEGAWAI_SWASTA"
+      "transactionId": "dKDW9AvjAGK2oOjji-MrA"
     }
   });
 });
+
+// app.get("/apc/v1/personal-data", (req, res) => {
+//   res.json({
+//     "dataProtected": {
+//       "rt": "010",
+//       "postalCode": "14350",
+//       "fullName": "IRPAN FAJAR SANTOSO",
+//       "province": "DKI JAKARTA",
+//       "subdistrict": "SUNTER AGUNG",
+//       "jobStatus": "PENSIUN",
+//       "ktp": "3172020111970002",
+//       "rw": "001",
+//       "city": "JAKARTA UTARA",
+//       "typeCompanyDropdown": "L",
+//       "buildingName": "PALING MEWAH SEJAGAD",
+//       "address": "JL.ANCOL SELATAN",
+//       "district": "TANJUNG PRIOK",
+//       "jobPositionDropdown": "PENSIUN"
+//     }
+//   });
+// });
 
 app.get("/apc/v1/reference", (req, res) => {
   res.send({
     "dataProtected": {
       "categories": [
         {
-          "key": "TRAVEL",
+          "image": null,
+          "value": "applyCcCategoryDailyNeedsLockey",
+          "key": "DAILY_NEEDS"
+        },
+        {
+          "image": null,
+          "value": "applyCcCategoryLifestyleLockey",
+          "key": "LIFESTYLE"
+        },
+        {
+          "image": null,
+          "value": "applyCcCategoryDiningLockey",
+          "key": "DINING"
+        },
+        {
+          "image": null,
           "value": "applyCcCategoryTravelLockey",
-          "image": null
+          "key": "TRAVEL"
         },
         {
-          "key": "SHOPPING",
+          "image": null,
           "value": "applyCcCategoryShoppingLockey",
-          "image": null
+          "key": "SHOPPING"
         },
         {
-          "key": "CASHBACK",
+          "image": null,
           "value": "applyCcCategoryCashbackLockey",
-          "image": null
+          "key": "CASHBACK"
         },
         {
-          "key": "HEALTH",
+          "image": null,
           "value": "applyCcCategoryHealthLockey",
-          "image": null
+          "key": "HEALTH"
         }
       ]
     }
@@ -502,63 +353,63 @@ app.get("/reference/v1/lov", (req, res) => {
   if (req.query.category == "apply-cc.personal-data") {
     res.send({
       "data": {
-        "lastEducation": [
-          {
-            "lovValue": "D",
-            "lovDisplay": "applyCCDetailPersonalDataScreenLastEducationDiploma",
-            "lovKey": "apply-cc.personal-data.lastEducation.diploma"
-          },
-          {
-            "lovValue": "U",
-            "lovDisplay": "applyCCDetailPersonalDataScreenLastEducationS1",
-            "lovKey": "apply-cc.personal-data.lastEducation.s1"
-          },
-          {
-            "lovValue": "M",
-            "lovDisplay": "applyCCDetailPersonalDataScreenLastEducationS2",
-            "lovKey": "apply-cc.personal-data.lastEducation.s2"
-          },
-          {
-            "lovValue": "M",
-            "lovDisplay": "applyCCDetailPersonalDataScreenLastEducationS3",
-            "lovKey": "apply-cc.personal-data.lastEducation.s3"
-          },
-          {
-            "lovValue": "S",
-            "lovDisplay": "applyCCDetailPersonalDataScreenLastEducationOther",
-            "lovKey": "apply-cc.personal-data.lastEducation.other"
-          }
-        ],
         "numberDependents": [
           {
-            "lovValue": "0",
+            "lovKey": "apply-cc.personal-data.numberDependents.0",
             "lovDisplay": "applyCCDetailPersonalDataScreenNumberDependents0",
-            "lovKey": "apply-cc.personal-data.numberDependents.0"
+            "lovValue": "0"
           },
           {
-            "lovValue": "1",
+            "lovKey": "apply-cc.personal-data.numberDependents.1",
             "lovDisplay": "applyCCDetailPersonalDataScreenNumberDependents1",
-            "lovKey": "apply-cc.personal-data.numberDependents.1"
+            "lovValue": "1"
           },
           {
-            "lovValue": "2",
+            "lovKey": "apply-cc.personal-data.numberDependents.2",
             "lovDisplay": "applyCCDetailPersonalDataScreenNumberDependents2",
-            "lovKey": "apply-cc.personal-data.numberDependents.2"
+            "lovValue": "2"
           },
           {
-            "lovValue": "3",
+            "lovKey": "apply-cc.personal-data.numberDependents.3",
             "lovDisplay": "applyCCDetailPersonalDataScreenNumberDependents3",
-            "lovKey": "apply-cc.personal-data.numberDependents.3"
+            "lovValue": "3"
           },
           {
-            "lovValue": "4",
+            "lovKey": "apply-cc.personal-data.numberDependents.4",
             "lovDisplay": "applyCCDetailPersonalDataScreenNumberDependents4",
-            "lovKey": "apply-cc.personal-data.numberDependents.4"
+            "lovValue": "4"
           },
           {
-            "lovValue": "5",
+            "lovKey": "apply-cc.personal-data.numberDependents.5",
             "lovDisplay": "applyCCDetailPersonalDataScreenNumberDependents5",
-            "lovKey": "apply-cc.personal-data.numberDependents.5"
+            "lovValue": "5"
+          }
+        ],
+        "lastEducation": [
+          {
+            "lovKey": "apply-cc.personal-data.lastEducation.diploma",
+            "lovDisplay": "applyCCDetailPersonalDataScreenLastEducationDiploma",
+            "lovValue": "D"
+          },
+          {
+            "lovKey": "apply-cc.personal-data.lastEducation.s1",
+            "lovDisplay": "applyCCDetailPersonalDataScreenLastEducationS1",
+            "lovValue": "U"
+          },
+          {
+            "lovKey": "apply-cc.personal-data.lastEducation.s2",
+            "lovDisplay": "applyCCDetailPersonalDataScreenLastEducationS2",
+            "lovValue": "M"
+          },
+          {
+            "lovKey": "apply-cc.personal-data.lastEducation.s3",
+            "lovDisplay": "applyCCDetailPersonalDataScreenLastEducationS3",
+            "lovValue": "M"
+          },
+          {
+            "lovKey": "apply-cc.personal-data.lastEducation.other",
+            "lovDisplay": "applyCCDetailPersonalDataScreenLastEducationOther",
+            "lovValue": "S"
           }
         ]
       }
@@ -1027,34 +878,34 @@ app.get("/reference/v1/lov", (req, res) => {
       "data": {
         "statusResidence": [
           {
-            "lovValue": "V010|M",
+            "lovKey": "apply-cc.residence.statusResidence.own",
             "lovDisplay": "applyCCResidenceDataScreenOwn",
-            "lovKey": "apply-cc.residence.statusResidence.own"
+            "lovValue": "V010|M"
           },
           {
-            "lovValue": "V040|K",
+            "lovKey": "apply-cc.residence.statusResidence.family",
             "lovDisplay": "applyCCResidenceDataScreenFamily",
-            "lovKey": "apply-cc.residence.statusResidence.family"
+            "lovValue": "V040|K"
           },
           {
-            "lovValue": "V060|P",
+            "lovKey": "apply-cc.residence.statusResidence.company",
             "lovDisplay": "applyCCResidenceDataScreenCompany",
-            "lovKey": "apply-cc.residence.statusResidence.company"
+            "lovValue": "V060|P"
           },
           {
-            "lovValue": "V050|S",
+            "lovKey": "apply-cc.residence.statusResidence.rent",
             "lovDisplay": "applyCCResidenceDataScreenRent",
-            "lovKey": "apply-cc.residence.statusResidence.rent"
+            "lovValue": "V050|S"
           },
           {
-            "lovValue": "V030|O",
+            "lovKey": "apply-cc.residence.statusResidence.kost",
             "lovDisplay": "applyCCResidenceDataScreenKost",
-            "lovKey": "apply-cc.residence.statusResidence.kost"
+            "lovValue": "V030|O"
           },
           {
-            "lovValue": "V090|L",
+            "lovKey": "apply-cc.residence.statusResidence.other",
             "lovDisplay": "applyCCResidenceDataScreenOther",
-            "lovKey": "apply-cc.residence.statusResidence.other"
+            "lovValue": "V090|L"
           }
         ]
       }
@@ -1067,43 +918,53 @@ app.get("/reference/v1/lov", (req, res) => {
         "familyRelationship": [
           {
             "lovKey": "apply-cc.emergency-contact.familyRelationship.parent",
-            "lovValue": "1",
-            "lovDisplay": "applyCCEmergencyContactScreenFamilyRelationshipParent"
+            "lovDisplay": "applyCCEmergencyContactScreenFamilyRelationshipParent",
+            "lovValue": "1"
           },
           {
             "lovKey": "apply-cc.emergency-contact.familyRelationship.olderBrotherSister",
-            "lovValue": "2",
-            "lovDisplay": "applyCCEmergencyContactScreenFamilyRelationshipOlderBrotherSister"
+            "lovDisplay": "applyCCEmergencyContactScreenFamilyRelationshipOlderBrotherSister",
+            "lovValue": "2"
           },
           {
             "lovKey": "apply-cc.emergency-contact.familyRelationship.youngerBrotherSister",
-            "lovValue": "3",
-            "lovDisplay": "applyCCEmergencyContactScreenFamilyRelationshipYoungerBrotherSister"
+            "lovDisplay": "applyCCEmergencyContactScreenFamilyRelationshipYoungerBrotherSister",
+            "lovValue": "3"
+          },
+          {
+            "lovKey": "apply-cc.emergency-contact.familyRelationship.company",
+            "lovDisplay": "applyCCEmergencyContactScreenFamilyRelationshipCompany",
+            "lovValue": "4"
           },
           {
             "lovKey": "apply-cc.emergency-contact.familyRelationship.husbandWife",
-            "lovValue": "5",
-            "lovDisplay": "applyCCEmergencyContactScreenFamilyRelationshipHusbandWife"
+            "lovDisplay": "applyCCEmergencyContactScreenFamilyRelationshipHusbandWife",
+            "lovValue": "5"
           },
           {
             "lovKey": "apply-cc.emergency-contact.familyRelationship.grandparents",
-            "lovValue": "6",
-            "lovDisplay": "applyCCEmergencyContactScreenFamilyRelationshipGrandparents"
+            "lovDisplay": "applyCCEmergencyContactScreenFamilyRelationshipGrandparents",
+            "lovValue": "6"
           },
           {
             "lovKey": "apply-cc.emergency-contact.familyRelationship.parentsInLaw",
-            "lovValue": "7",
-            "lovDisplay": "applyCCEmergencyContactScreenFamilyRelationshipParentsInLaw"
+            "lovDisplay": "applyCCEmergencyContactScreenFamilyRelationshipParentsInLaw",
+            "lovValue": "7"
           },
           {
-            "lovKey": "apply-cc.emergency-contact.familyRelationship.child",
-            "lovValue": "10",
-            "lovDisplay": "applyCCEmergencyContactScreenFamilyRelationshipChild"
+            "lovKey": "apply-cc.emergency-contact.familyRelationship.nephew",
+            "lovDisplay": "applyCCEmergencyContactScreenFamilyRelationshipNephew",
+            "lovValue": "8"
           },
           {
             "lovKey": "apply-cc.emergency-contact.familyRelationship.other",
-            "lovValue": "9",
-            "lovDisplay": "applyCCEmergencyContactScreenFamilyRelationshipOther"
+            "lovDisplay": "applyCCEmergencyContactScreenFamilyRelationshipOther",
+            "lovValue": "9"
+          },
+          {
+            "lovKey": "apply-cc.emergency-contact.familyRelationship.child",
+            "lovDisplay": "applyCCEmergencyContactScreenFamilyRelationshipChild",
+            "lovValue": "10"
           }
         ]
       }
@@ -1115,53 +976,53 @@ app.get("/reference/v1/lov", (req, res) => {
       "data": {
         "1": [
           {
+            "lovKey": "apply-cc.landing-page.1.title",
             "lovDisplay": "applyCCLandingPageScreenListTitle1",
-            "lovValue": "applyCCLandingPageScreenList1",
-            "lovKey": "apply-cc.landing-page.1.title"
+            "lovValue": "applyCCLandingPageScreenList1"
           },
           {
+            "lovKey": "apply-cc.landing-page.1.description",
             "lovDisplay": "applyCCLandingPageScreenListDescription1",
-            "lovValue": "applyCCLandingPageScreenList1",
-            "lovKey": "apply-cc.landing-page.1.description"
+            "lovValue": "applyCCLandingPageScreenList1"
           },
           {
+            "lovKey": "apply-cc.landing-page.1.icon",
             "lovDisplay": "applyCCLandingPageScreenListIcon1",
-            "lovValue": "applyCCLandingPageScreenList1",
-            "lovKey": "apply-cc.landing-page.1.icon"
+            "lovValue": "applyCCLandingPageScreenList1"
           }
         ],
         "2": [
           {
+            "lovKey": "apply-cc.landing-page.2.title",
             "lovDisplay": "applyCCLandingPageScreenListTitle2",
-            "lovValue": "applyCCLandingPageScreenListTitle2",
-            "lovKey": "apply-cc.landing-page.2.title"
+            "lovValue": "applyCCLandingPageScreenListTitle2"
           },
           {
+            "lovKey": "apply-cc.landing-page.2.description",
             "lovDisplay": "applyCCLandingPageScreenListDescription2",
-            "lovValue": "applyCCLandingPageScreenListDescription2",
-            "lovKey": "apply-cc.landing-page.2.description"
+            "lovValue": "applyCCLandingPageScreenListDescription2"
           },
           {
+            "lovKey": "apply-cc.landing-page.2.icon",
             "lovDisplay": "applyCCLandingPageScreenListIcon2",
-            "lovValue": "applyCCLandingPageScreenListIcon2",
-            "lovKey": "apply-cc.landing-page.2.icon"
+            "lovValue": "applyCCLandingPageScreenListIcon2"
           }
         ],
         "3": [
           {
+            "lovKey": "apply-cc.landing-page.3.title",
             "lovDisplay": "applyCCLandingPageScreenListTitle3",
-            "lovValue": "applyCCLandingPageScreenListTitle3",
-            "lovKey": "apply-cc.landing-page.3.title"
+            "lovValue": "applyCCLandingPageScreenListTitle3"
           },
           {
+            "lovKey": "apply-cc.landing-page.3.description",
             "lovDisplay": "applyCCLandingPageScreenListDescription3",
-            "lovValue": "applyCCLandingPageScreenListDescription3",
-            "lovKey": "apply-cc.landing-page.3.description"
+            "lovValue": "applyCCLandingPageScreenListDescription3"
           },
           {
+            "lovKey": "apply-cc.landing-page.3.icon",
             "lovDisplay": "applyCCLandingPageScreenListIcon3",
-            "lovValue": "applyCCLandingPageScreenListIcon3",
-            "lovKey": "apply-cc.landing-page.3.icon"
+            "lovValue": "applyCCLandingPageScreenListIcon3"
           }
         ]
       }
@@ -1171,17 +1032,22 @@ app.get("/reference/v1/lov", (req, res) => {
 
 app.get("/apc/v1/personal-data", (req, res) => {
   res.send({
-      dataProtected: {
-        jobStatus: "LAIN-LAIN",
-        address: "JL. SETIABUDI",
-        rt: "35",
-        rw: "35",
-        buildingName: "Perumahan Bagus",
-        district: "Setia Budi",
-        subdistrict: "Setia Budi",
-        city: "BATU",
-        postalCode: "12910",
-      }
+    "dataProtected": {
+      "rt": "010",
+      "postalCode": "14350",
+      "fullName": "IRPAN FAJAR SANTOSO",
+      "province": "DKI JAKARTA",
+      "subdistrict": "SUNTER AGUNG",
+      "jobStatus": "PENSIUN",
+      "ktp": "3172020111970002",
+      "rw": "001",
+      "city": "JAKARTA UTARA",
+      "typeCompanyDropdown": "L",
+      "buildingName": "PALING MEWAH SEJAGAD",
+      "address": "JL.ANCOL SELATAN",
+      "district": "TANJUNG PRIOK",
+      "jobPositionDropdown": "PENSIUN"
+    }
   });
 });
 
@@ -1202,174 +1068,174 @@ app.get("/reference/v1/provinces", (req, res) => {
     "data": {
       "province": [
         {
+          "provinceCode": "72",
           "id": "Gh2h2tKkRe1WB10000000",
-          "provinceName": "BALI",
-          "provinceCode": "72"
+          "provinceName": "BALI"
         },
         {
+          "provinceCode": "2",
           "id": "Gh2h2tKkRe1WB10000001",
-          "provinceName": "BANTEN",
-          "provinceCode": "2"
+          "provinceName": "BANTEN"
         },
         {
+          "provinceCode": "23",
           "id": "Gh2h2tKkRe1WB10000002",
-          "provinceName": "BENGKULU",
-          "provinceCode": "23"
+          "provinceName": "BENGKULU"
         },
         {
+          "provinceCode": "5",
           "id": "Gh2h2tKkRe1WB10000003",
-          "provinceName": "DAERAH ISTIMEWA YOGYAKARTA",
-          "provinceCode": "5"
+          "provinceName": "DAERAH ISTIMEWA YOGYAKARTA"
         },
         {
+          "provinceCode": "3",
           "id": "Gh2h2tKkRe1WB10000004",
-          "provinceName": "DKI JAKARTA",
-          "provinceCode": "3"
+          "provinceName": "DKI JAKARTA"
         },
         {
+          "provinceCode": "63",
           "id": "Gh2h2tKkRe1WB10000005",
-          "provinceName": "GORONTALO",
-          "provinceCode": "63"
+          "provinceName": "GORONTALO"
         },
         {
+          "provinceCode": "31",
           "id": "Gh2h2tKkRe1WB10000006",
-          "provinceName": "JAMBI",
-          "provinceCode": "31"
+          "provinceName": "JAMBI"
         },
         {
+          "provinceCode": "1",
           "id": "Gh2h2tKkRe1WB10000007",
-          "provinceName": "JAWA BARAT",
-          "provinceCode": "1"
+          "provinceName": "JAWA BARAT"
         },
         {
+          "provinceCode": "9",
           "id": "Gh2h2tKkRe1WB10000008",
-          "provinceName": "JAWA TENGAH",
-          "provinceCode": "9"
+          "provinceName": "JAWA TENGAH"
         },
         {
+          "provinceCode": "12",
           "id": "Gh2h2tKkRe1WB10000009",
-          "provinceName": "JAWA TIMUR",
-          "provinceCode": "12"
+          "provinceName": "JAWA TIMUR"
         },
         {
+          "provinceCode": "53",
           "id": "Gh2h2tKkRe1WB10000010",
-          "provinceName": "KALIMANTAN BARAT",
-          "provinceCode": "53"
+          "provinceName": "KALIMANTAN BARAT"
         },
         {
+          "provinceCode": "51",
           "id": "Gh2h2tKkRe1WB10000011",
-          "provinceName": "KALIMANTAN SELATAN",
-          "provinceCode": "51"
+          "provinceName": "KALIMANTAN SELATAN"
         },
         {
+          "provinceCode": "58",
           "id": "Gh2h2tKkRe1WB10000012",
-          "provinceName": "KALIMANTAN TENGAH",
-          "provinceCode": "58"
+          "provinceName": "KALIMANTAN TENGAH"
         },
         {
+          "provinceCode": "54",
           "id": "Gh2h2tKkRe1WB10000013",
-          "provinceName": "KALIMANTAN TIMUR",
-          "provinceCode": "54"
+          "provinceName": "KALIMANTAN TIMUR"
         },
         {
+          "provinceCode": "55",
           "id": "Gh2h2tKkRe1WB10000014",
-          "provinceName": "KALIMANTAN UTARA",
-          "provinceCode": "55"
+          "provinceName": "KALIMANTAN UTARA"
         },
         {
+          "provinceCode": "37",
           "id": "Gh2h2tKkRe1WB10000015",
-          "provinceName": "KEPULAUAN BANGKA BELITUNG",
-          "provinceCode": "37"
+          "provinceName": "KEPULAUAN BANGKA BELITUNG"
         },
         {
+          "provinceCode": "38",
           "id": "Gh2h2tKkRe1WB10000016",
-          "provinceName": "KEPULAUAN RIAU",
-          "provinceCode": "38"
+          "provinceName": "KEPULAUAN RIAU"
         },
         {
+          "provinceCode": "39",
           "id": "Gh2h2tKkRe1WB10000017",
-          "provinceName": "LAMPUNG",
-          "provinceCode": "39"
+          "provinceName": "LAMPUNG"
         },
         {
+          "provinceCode": "81",
           "id": "Gh2h2tKkRe1WB10000018",
-          "provinceName": "MALUKU",
-          "provinceCode": "81"
+          "provinceName": "MALUKU"
         },
         {
+          "provinceCode": "83",
           "id": "Gh2h2tKkRe1WB10000019",
-          "provinceName": "MALUKU UTARA",
-          "provinceCode": "83"
+          "provinceName": "MALUKU UTARA"
         },
         {
+          "provinceCode": "32",
           "id": "Gh2h2tKkRe1WB10000020",
-          "provinceName": "NANGGROE ACEH DARUSSALAM (NAD)",
-          "provinceCode": "32"
+          "provinceName": "NANGGROE ACEH DARUSSALAM (NAD)"
         },
         {
+          "provinceCode": "71",
           "id": "Gh2h2tKkRe1WB10000021",
-          "provinceName": "NUSA TENGGARA BARAT",
-          "provinceCode": "71"
+          "provinceName": "NUSA TENGGARA BARAT"
         },
         {
+          "provinceCode": "74",
           "id": "Gh2h2tKkRe1WB10000022",
-          "provinceName": "NUSA TENGGARA TIMUR",
-          "provinceCode": "74"
+          "provinceName": "NUSA TENGGARA TIMUR"
         },
         {
+          "provinceCode": "82",
           "id": "Gh2h2tKkRe1WB10000023",
-          "provinceName": "PAPUA",
-          "provinceCode": "82"
+          "provinceName": "PAPUA"
         },
         {
+          "provinceCode": "84",
           "id": "Gh2h2tKkRe1WB10000024",
-          "provinceName": "PAPUA BARAT",
-          "provinceCode": "84"
+          "provinceName": "PAPUA BARAT"
         },
         {
+          "provinceCode": "35",
           "id": "Gh2h2tKkRe1WB10000025",
-          "provinceName": "RIAU",
-          "provinceCode": "35"
+          "provinceName": "RIAU"
         },
         {
+          "provinceCode": "64",
           "id": "Gh2h2tKkRe1WB10000026",
-          "provinceName": "SULAWESI BARAT",
-          "provinceCode": "64"
+          "provinceName": "SULAWESI BARAT"
         },
         {
+          "provinceCode": "61",
           "id": "Gh2h2tKkRe1WB10000027",
-          "provinceName": "SULAWESI SELATAN",
-          "provinceCode": "61"
+          "provinceName": "SULAWESI SELATAN"
         },
         {
+          "provinceCode": "60",
           "id": "Gh2h2tKkRe1WB10000028",
-          "provinceName": "SULAWESI TENGAH",
-          "provinceCode": "60"
+          "provinceName": "SULAWESI TENGAH"
         },
         {
+          "provinceCode": "69",
           "id": "Gh2h2tKkRe1WB10000029",
-          "provinceName": "SULAWESI TENGGARA",
-          "provinceCode": "69"
+          "provinceName": "SULAWESI TENGGARA"
         },
         {
+          "provinceCode": "62",
           "id": "Gh2h2tKkRe1WB10000030",
-          "provinceName": "SULAWESI UTARA",
-          "provinceCode": "62"
+          "provinceName": "SULAWESI UTARA"
         },
         {
+          "provinceCode": "34",
           "id": "Gh2h2tKkRe1WB10000031",
-          "provinceName": "SUMATERA BARAT",
-          "provinceCode": "34"
+          "provinceName": "SUMATERA BARAT"
         },
         {
+          "provinceCode": "36",
           "id": "Gh2h2tKkRe1WB10000032",
-          "provinceName": "SUMATERA SELATAN",
-          "provinceCode": "36"
+          "provinceName": "SUMATERA SELATAN"
         },
         {
+          "provinceCode": "33",
           "id": "Gh2h2tKkRe1WB10000033",
-          "provinceName": "SUMATERA UTARA",
-          "provinceCode": "33"
+          "provinceName": "SUMATERA UTARA"
         }
       ]
     }
