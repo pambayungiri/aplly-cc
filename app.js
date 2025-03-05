@@ -1033,20 +1033,20 @@ app.get("/reference/v1/lov", (req, res) => {
 app.get("/apc/v1/personal-data", (req, res) => {
   res.send({
     "dataProtected": {
-      "rt": "010",
-      "postalCode": "14350",
-      "fullName": "IRPAN FAJAR SANTOSO",
+      "rt": "001",
+      "postalCode": "12970",
+      "fullName": "IKA NUR OKTAVIANA",
       "province": "DKI JAKARTA",
-      "subdistrict": "SUNTER AGUNG",
-      "jobStatus": "PENSIUN",
-      "ktp": "3172020111970002",
+      "subdistrict": "PASAR MANGGIS",
+      "jobStatus": "PENGUSAHA",
+      "ktp": "1810044110000001",
       "rw": "001",
-      "city": "JAKARTA UTARA",
-      "typeCompanyDropdown": "L",
-      "buildingName": "PALING MEWAH SEJAGAD",
-      "address": "JL.ANCOL SELATAN",
-      "district": "TANJUNG PRIOK",
-      "jobPositionDropdown": "PENSIUN"
+      "city": "JAKARTA SELATAN",
+      "typeCompanyDropdown": "S",
+      "buildingName": "",
+      "address": "JAKARTA SELATAN",
+      "district": "SETIA BUDI",
+      "jobPositionDropdown": "PEGAWAI_SWASTA"
     }
   });
 });
