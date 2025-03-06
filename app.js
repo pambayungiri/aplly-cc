@@ -1038,7 +1038,7 @@ app.get("/apc/v1/personal-data", (req, res) => {
       "fullName": "IKA NUR OKTAVIANA",
       "province": "DKI JAKARTA",
       "subdistrict": "PASAR MANGGIS",
-      "jobStatus": "PROFESIONAL",
+      "jobStatus": "LAINNYA",
       "ktp": "1810044110000001",
       "rw": "001",
       "city": "JAKARTA SELATAN",
