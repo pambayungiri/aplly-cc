@@ -277,7 +277,7 @@ app.post("/apc/v1/preparation", (req, res) => {
 
   console.log(req.body);
   
-  res.status(409).send({ "errorMessage": "GNR-000-997_errorMessage", "errorCode": "GNR-000-997", "errorDesc": "DOWNTIME_SERVICE_LEVEL", "errorTitle": "GNR-000-997_errorTitle", "timestamp": "2025-03-11 15:08:14.019+0700" });
+  res.status(503).send({ "errorMessage": "GNR-000-997_errorMessage", "errorCode": "GNR-000-997", "errorDesc": "DOWNTIME_SERVICE_LEVEL", "errorTitle": "GNR-000-997_errorTitle", "timestamp": "2025-03-11 15:08:14.019+0700" });
 });
 
 // app.get("/apc/v1/personal-data", (req, res) => {
