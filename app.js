@@ -1047,6 +1047,16 @@ app.get("/apc/v1/personal-data", (req, res) => {
   });
 });
 
+app.get("/apc/v1/execution", (req, res) => {
+  res.status(409).send({
+    "errorMessage": "GNR-000-000_errorMessage",
+    "errorCode": "GNR-000-000",
+    "errorDesc": "GENERAL_FAULT_MSG",
+    "errorTitle": "GNR-000-000_errorTitle",
+    "timestamp": "2025-03-12 19:31:08.760+0700"
+  });
+});
+
 app.get("/content/v1/tnc", (req, res) => {
   res.send({
     "data": {
