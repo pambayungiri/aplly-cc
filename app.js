@@ -1047,7 +1047,9 @@ app.get("/apc/v1/personal-data", (req, res) => {
   });
 });
 
-app.get("/apc/v1/execution", (req, res) => {
+app.post("/apc/v1/execution", (req, res) => {
+
+
   res.status(409).send({
     "errorMessage": "GNR-000-000_errorMessage",
     "errorCode": "GNR-000-000",
